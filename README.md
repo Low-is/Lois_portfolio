@@ -1,2 +1,2 @@
-# Building_portfolio_website
-HTML and CSS for portfolio website
+# Building Portfolio Website
+Portfolio website is under construction using HTML and CSS.
