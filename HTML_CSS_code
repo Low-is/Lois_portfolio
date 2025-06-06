@@ -82,6 +82,7 @@ body {
  min-height: 60vh; /*60% of the viewport height, container at least as tall as the entire viewport*/
  flex-direction: column;
  align-items: center;
+ border-bottom: 15px solid black;
 }
 
 
@@ -172,8 +173,6 @@ body {
 /* RIGHT CONTAINER */
 .about-box {
  width: 100%;
- border-radius: 12px;
- box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
 
@@ -189,6 +188,8 @@ line-height: 1.6;
 word-break: break-word;
 padding: 40px;
 margin-left: -80px;
+border-radius: 12px;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -234,7 +235,8 @@ margin-left: -80px;
   max-width: auto;
   padding: 40px 0;
   text-align: left;
-  background: MediumSpringGreen;
+  background: linear-gradient(to right, #39ff14, #00ffff);
+  border-bottom: 15px solid black;
 }
 
 .experience-container {
@@ -291,6 +293,7 @@ margin-left: -80px;
  <a href="#contact" style="font-size: 40px;">Contact</a>
 </nav>
 
+<section id="about">
 <div class="about-me-section">
 <h1 class="welcome-header">
 Hello and welcome!
@@ -370,7 +373,9 @@ Hello and welcome!
        </div>
       </div>
   </div>
+</section>
 </body>
+
 
 <!-- EXPERIENCE -->
 <section id="experience">
@@ -426,37 +431,46 @@ Hello and welcome!
 <!-- RESEARCH & PROJECTS -->
 <section id="research-projects">
 <div style="background-color: #800080; width: 100%; padding: 40px 20px; box-sizing: border-box;">
-<h1 style="font-size: 70px;font-family: Consolas;text-align: center;color: white;margin-bottom: 50px;">Research/Projects</h1>
-<h2 style="font-size: 28px;color: white;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Significance of LIF/LIFR Signaling in the Progression of Obesity-Driven Triple-Negative Breast Cancer</h2>
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">The obesity epidemic in the USA is increasing the risk of aggressive triple-negative breast cancer (TNBC) in obese women. American women with obesity have an increased incidence of TNBC compared to their leaner counterparts. The impact of obesity conditions on the tumor microenvironment is suspected to accelerate TNBC progression; however the specific mechanism(s) remains elusive. This study investigated the potential impact of obesity on the advancement of TNBC by amplifying leukemia inhibitory factor receptor (LIFR) signaling. We tested the effects of LIFR inhibition using EC359 on TNBC cells in obesity conditions. Thus this study explores the hypothesis that obesity upregulates LIFR oncogenic signaling in TNBC and assesses the efficacy of LIFR inhibition with EC359 in blocking TNBC progression. Mechanistic studies utilized various techniques, with RNA-Seq being used to evaluate the effects of treatments on the global transcriptome.</p>
-
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;">Citation:<a style="font-size: 28px;color: white;margin-left: 5px;" href="https://doi.org/10.3390/cancers16213630" target="_blank" rel="noopener">https://doi.org/10.3390/cancers16213630</a></p>
-
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;">Tools used: TopHat2 (for sequence alignment) | HTSeq (quantification of gene expression) | NCBI RefSeq (gene annotation) | DESeq2 (perform differential expression analysis) | GSEA (identify dysregulated molecular pathways) | GraphPad Prism & R (used for statistical analyses)</p>
+<h1 style="font-size: 100px;font-family: Consolas;text-align: center;color: white;margin-bottom: 50px;">Research/Projects</h1>
+<h2 style="font-size: 50px;color: white;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Insights into bronchopulmonary dysplasia: A meta-analysis of transcriptomic data</h2>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">Bronchopulmonary dysplasia (BPD) remains a leading complication of prematurity with no established molecular diagnostic tools. BPD results from multiple postnatal insults including prolonged mechanical ventilation, hyperoxia, infection, and inflammation and persists despite advances in neonatal care. Therapeutic options remain limited, and clinical trials targeting BPD prevention have largely been unsuccessful.</p>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">In this study, we performed an integrated meta-analysis of publicly available transcriptomic datasets from preterm infants. Our goals were to identify reproducible gene signatures predictive of BPD, explore biological heterogeneity across clinical subgroups (e.g., gestational age and birth weight), and assess shared or distinct pathways between human and animal BPD models.</p>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;">Citation: Manuscript in progress</p>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;">R packages used: DESeq2 (differential expression analysis) | dplyr (transforming data) | Caret (machine learning) | recipes (handling class imbalances) | themis (handling class imbalances) | clusterProfiler (pathway enrichment analysis) | stats (statistical analysis) | pROC (extracting performance metrics) | ROCR (extracting performance metrics) | tidyr (transforming data) | tidyverse (transforming data) | multtest (meta-analysis) | lme4 (linear-mixed models) | emmeans (estimating marginal means) | rmeta (meta-analysis)
+| h2o (machine learning)</p>
 </div>
 
 <div style="background-color: #D8BFD8;width: 100%; padding: 40px 20px; box-sizing: border-box;">
-<h2 style="font-size: 28px;color: black;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Predicting Future Respiratory Hospitalizations in Extremely Premature Neonates Using Transcriptomic Data and Machine Learning</h2>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">Bronchopulmonary dysplasia (BPD) is the most common lung condition developed by extremely premature neonates. Characterized by an underdevelopment of alveoli and vascular supply, BPD arises from chronic injury from supplemental oxygen and/or positive airway pressures. Infants diagnosed with BPD experience longer hospitalizations, decreased neurocognitive scores, increased mortality rates, and are at a higher risk for chronic sequelae. BPD survivors exhibit increased rates of chronic respiratory and cardiovascular disease, growth failure, and neurodevelopmental delay, resulting in high healthcare and social costs. Despite modern-day advances in neonatal care, therapies for BPD are limited and largely supportive. Early identification of neonates at higher risk for BPD is critical and may translate into novel interventions with potential to impact lifelong health.</p>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">Urine metabolomics offers a unique non-invasive opportunity for identification of biomarkers of BPD. Using urine as a surrogate marker for lung disease is a proven technique in both adult and pediatric lung conditions. Thus, this study aims to use machine learning to identify urine metabolites as early predictors of BPD in very low birthweight (VLBW) preterm neonates.</p>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;">Citation: Manuscript in progress</p>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;">R packages used: Caret (machine learning) | PLS (meta-analysis/feature selection) | readxl (loading data) | mixOmics (meta-analysis) | dplyr (transforming data) | pROC (extracting performance metrics) | ROCR (extracting performance metrics) | tidyr (transforming data) | tidyverse (transforming data) | MetaboAnalystR (analyzing data) | KEGGREST (pathway annoatations) | clusterProfiler (pathway enrichment analysis) | lightgbm (machine learning) | recipes (handling class imbalances) | themis (handling class imbalances) | gpls (meta-analysis/feature selection) | plyr (transforming data) | stats (statistical analysis)</p>
+<h2 style="font-size: 50px;color: black;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Predicting Future Respiratory Hospitalizations in Extremely Premature Neonates Using Transcriptomic Data and Machine Learning</h2>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">Bronchopulmonary dysplasia (BPD) is the most common lung condition developed by extremely premature neonates. Characterized by an underdevelopment of alveoli and vascular supply, BPD arises from chronic injury from supplemental oxygen and/or positive airway pressures. Infants diagnosed with BPD experience longer hospitalizations, decreased neurocognitive scores, increased mortality rates, and are at a higher risk for chronic sequelae. BPD survivors exhibit increased rates of chronic respiratory and cardiovascular disease, growth failure, and neurodevelopmental delay, resulting in high healthcare and social costs. Despite modern-day advances in neonatal care, therapies for BPD are limited and largely supportive. Early identification of neonates at higher risk for BPD is critical and may translate into novel interventions with potential to impact lifelong health.</p>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">Urine metabolomics offers a unique non-invasive opportunity for identification of biomarkers of BPD. Using urine as a surrogate marker for lung disease is a proven technique in both adult and pediatric lung conditions. Thus, this study aims to use machine learning to identify urine metabolites as early predictors of BPD in very low birthweight (VLBW) preterm neonates.</p>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;">Citation: Manuscript in progress</p>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;">R packages used: Caret (machine learning) | PLS (meta-analysis/feature selection) | readxl (loading data) | mixOmics (meta-analysis) | dplyr (transforming data) | pROC (extracting performance metrics) | ROCR (extracting performance metrics) | tidyr (transforming data) | tidyverse (transforming data) | MetaboAnalystR (analyzing data) | KEGGREST (pathway annoatations) | clusterProfiler (pathway enrichment analysis) | lightgbm (machine learning) | recipes (handling class imbalances) | themis (handling class imbalances) | gpls (meta-analysis/feature selection) | plyr (transforming data) | stats (statistical analysis)</p>
+</div>
+
+<div style="background-color: #800080;width: 100%; padding: 40px 20px; box-sizing: border-box;">
+<h2 style="font-size: 50px;color: white;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Bronchopulmonary Dysplasia in Preterm Neonates: Th2-Eosinophilic Inflammation and Asthma-Like Features</h2>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">Asthma is the most prevalent pediatric lung disease characterized by the activation of T helper 2 (Th2) cells and associated inflammation. Mounting evidence suugests a similar skewing of Th2 cells in premature neonates who develop bronchopulmonary dysplasia (BPD). Since a significant number of neonates with BPD eventually develop asthma, the objective of our study was to investigate the association between an asthma related transcriptomic signature and neonates with BPD. 
+
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">Citation: Manuscript in progress</p>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">R packages used: DESeq2 (differential expression analysis) | stats (statistical analysis & generalized linear models) | caret (machine learning)
+</div>
+
+<div style="background-color: #D8BFD8;width: 100%; padding: 40px 20px; box-sizing: border-box;">
+<h2 style="font-size: 50px;color: black;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Dose-Dependent Disruption of The Gut Microbiome and Intestinal Pathophysiology Following Acute Radiation Exposure</h2>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">In this study, I contributed to this project investigating how varying doses of ionizing radiation (IR) impact gut microbiome diversity and intestinal health in rat models. The experimental design involved multiple cohorts of rats exposed to escalating IR doses (5Gy, 5.5Gy, 6Gy, and 7Gy), with fecal samples collected from 20 male adult Sprague-Dawley rats at key timepoints: Day 0 (pre-exposure), and Days 1,3,7,10, and 14 post-exposure. The goal was to examine dose-dependent shifts in microbial diversity, identify patterns of dysbiosis, and determine whether higher IR doses led to an accumulation of potentially pathogenic bacteria.</p>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;">Citation: Manuscript in progress</p>
+<p style="font-size: 45px;font-family: Consolas;color: black;margin-bottom: 20px;">R packages used: DADA2 (data processing/quality control) | knitr (ensures reproducible reports) | BiocStyle (ensures reproducible reports) | BiocParallel (parallel computing) | devtools (development tools) | pairwiseAdonis (PERMANOVA; compare beta diversity metrics) | ggrepl (data visualization) | phyloseq (differential expression/abundance analysis) | Biostrings (handles sequencing reads) | ggplot2 (data visualization) | microbiome (data processing) | lme4 (linear-mixed models) | lmerTest (linear-mixed models) | vegan (PERMANOVA; compare beta diversity metrics) | stats (statistical analysis)</p>
 </div>
 
 <div style="background-color: #800080; width: 100%; padding: 40px 20px; box-sizing: border-box;">
-<h2 style="font-size: 28px;color: white;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Insights into bronchopulmonary dysplasia: A meta-analysis of transcriptomic data</h2>
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">Bronchopulmonary dysplasia (BPD) remains a leading complication of prematurity with no established molecular diagnostic tools. BPD results from multiple postnatal insults including prolonged mechanical ventilation, hyperoxia, infection, and inflammation and persists despite advances in neonatal care. Therapeutic options remain limited, and clinical trials targeting BPD prevention have largely been unsuccessful.</p>
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">In this study, we performed an integrated meta-analysis of publicly available transcriptomic datasets from preterm infants. Our goals were to identify reproducible gene signatures predictive of BPD, explore biological heterogeneity across clinical subgroups (e.g., gestational age and birth weight), and assess shared or distinct pathways between human and animal BPD models.</p>
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;">Citation: Manuscript in progress</p>
-<p style="font-size: 28px;font-family: Consolas;color: white;margin-bottom: 20px;">R packages used: DESeq2 (differential expression analysis) | dplyr (transforming data) | Caret (machine learning) | recipes (handling class imbalances) | themis (handling class imbalances) | clusterProfiler (pathway enrichment analysis) | stats (statistical analysis) | pROC (extracting performance metrics) | ROCR (extracting performance metrics) | tidyr (transforming data) | tidyverse (transforming data) | multtest (meta-analysis) | lme4 (linear-mixed models) | emmeans (estimating marginal means) | rmeta (meta-analysis)
-| h2o (machine learning)</p>
+<h2 style="font-size: 50px;color: white;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Significance of LIF/LIFR Signaling in the Progression of Obesity-Driven Triple-Negative Breast Cancer</h2>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;word-wrap: break-word;">The obesity epidemic in the USA is increasing the risk of aggressive triple-negative breast cancer (TNBC) in obese women. American women with obesity have an increased incidence of TNBC compared to their leaner counterparts. The impact of obesity conditions on the tumor microenvironment is suspected to accelerate TNBC progression; however the specific mechanism(s) remains elusive. This study investigated the potential impact of obesity on the advancement of TNBC by amplifying leukemia inhibitory factor receptor (LIFR) signaling. We tested the effects of LIFR inhibition using EC359 on TNBC cells in obesity conditions. Thus this study explores the hypothesis that obesity upregulates LIFR oncogenic signaling in TNBC and assesses the efficacy of LIFR inhibition with EC359 in blocking TNBC progression. Mechanistic studies utilized various techniques, with RNA-Seq being used to evaluate the effects of treatments on the global transcriptome.</p>
 
-<div style="background-color: #D8BFD8;width: 100%; padding: 40px 20px; box-sizing: border-box;">
-<h2 style="font-size: 28px;color: black;position: relative;font-family: Consolas;text-decoration: underline;font-style: italic;">Dose-Dependent Disruption of The Gut Microbiome and Intestinal Pathophysiology Following Acute Radiation Exposure</h2>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;word-wrap: break-word;">In this study, I contributed to this project investigating how varying doses of ionizing radiation (IR) impact gut microbiome diversity and intestinal health in rat models. The experimental design involved multiple cohorts of rats exposed to escalating IR doses (5Gy, 5.5Gy, 6Gy, and 7Gy), with fecal samples collected from 20 male adult Sprague-Dawley rats at key timepoints: Day 0 (pre-exposure), and Days 1,3,7,10, and 14 post-exposure. The goal was to examine dose-dependent shifts in microbial diversity, identify patterns of dysbiosis, and determine whether higher IR doses led to an accumulation of potentially pathogenic bacteria.</p>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;">Citation: Manuscript in progress</p>
-<p style="font-size: 28px;font-family: Consolas;color: black;margin-bottom: 20px;">R packages used: DADA2 (data processing/quality control) | knitr (ensures reproducible reports) | BiocStyle (ensures reproducible reports) | BiocParallel (parallel computing) | devtools (development tools) | pairwiseAdonis (PERMANOVA; compare beta diversity metrics) | ggrepl (data visualization) | phyloseq (differential expression/abundance analysis) | Biostrings (handles sequencing reads) | ggplot2 (data visualization) | microbiome (data processing) | lme4 (linear-mixed models) | lmerTest (linear-mixed models) | vegan (PERMANOVA; compare beta diversity metrics) | stats (statistical analysis)</p>
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;">Citation:<a style="font-size: 45px;color: white;margin-left: 5px;" href="https://doi.org/10.3390/cancers16213630" target="_blank" rel="noopener">https://doi.org/10.3390/cancers16213630</a></p>
+
+<p style="font-size: 45px;font-family: Consolas;color: white;margin-bottom: 20px;">Tools used: TopHat2 (for sequence alignment) | HTSeq (quantification of gene expression) | NCBI RefSeq (gene annotation) | DESeq2 (differential expression analysis) | GSEA (identify dysregulated molecular pathways) | GraphPad Prism & R (used for statistical analyses)</p>
 </div>
 </section>
 </body>
-<p style="font-size: 24px;">Hand-coded with <i class="fas fa-heart" style="color:red;"></i> by Lois Randolph.</p>
+<p style="font-size: 35px;padding: 20px;">Hand-coded with <i class="fas fa-heart" style="color:red;"></i> by Lois Randolph.</p>
