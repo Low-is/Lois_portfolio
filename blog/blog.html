@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lois Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+  <link rel="stylesheet" href="blog_styles.css">
+</head>
+
+<body>
+
+<!-- blog.html -->
+<div class="flex-container">
+<div class="flex-child-1">
+<h2>Table of Contents</h2>
+<nav id=TableOfContents>
+<ul>
+<li>
+<a href=#introduction-Git>Introduction to Git</a>
+<ul class="subtopics">
+<li><a href=#download-installer>Download the Installer</a></li>
+<li><a href=#getting-started>Getting Started with Git</a></li>
+</ul>
+</li>
+
+<li>
+<a href="#docker-intro">Introduction to Docker</a>
+<ul class="subtopics">
+<li><a href="#intro-docker">What is Docker?</a></li>
+<li><a href="#installation">Installation</a></li>
+<li><a href="#setup-docker">Get Started with Docker</a></li>
+</ul>
+</li>
+
+
+<li>
+<a href=#variant-nextflow>Variant Calling and Classification using Nextflow</a>
+<ul class="subtopics">
+<li><a href=#variant-intro>Variant Calling and Variant Classification</a>
+</li>
+<li><a href=#nextflow-intro>Introduction to Nextflow</a></li>
+<li><a href=#nextflow-getting-started>Getting Started with Nextflow</a></li>
+</ul>
+</li>
+
+</ul>
+</nav>
+</div>
+
+<div class="flex-child-2">
+<h1> Using Git - version control </h1>
+<h2 id=introduction-Git>Introduction to Git</h2>
+<span>Last updated on Tue, June 10, 2025</span><br>
+<span style="text-decoration: underline;">Source:</span><span style="font-style: italic;"> git-scm.com</span>
+<div class="content-wrapper">
+<p style="word-break: break-word;"> It's Monday morning and you just arrived to work and ready to crush the work day. You log onto your computer and navigate to your team's "central hub" where all code is stored and shared (lets use GitHub as an example) for collaboration on various projects.</p>
+
+<p style="word-break: break-word;">The project you're currently working on involves analyzing survey data collected from your company to identify how to increase work productivity for data analysis based projects. The goal is to get projects completed sooner and while there are developed and maintained pipelines/workflows to help, your company still has not seen a significant improvement.</p>
+
+<p style="word-break: break-word;">To asses why work performance is low despite having standardized pipelines, you and your team create a ranked question based survey (e.g., very good, okay, not good) that addresses any knowledge gaps of the employee's in regard to using the pipelines.</p>
+
+<p>Your team and you are hoping to identify trainings the employee's will need to undergo to improve their work productivity when using these pipelines. All data has been collected and you and your team are processing/cleaning the data before analyzing it. You notice some of the data has been deleted, but you're not sure who made that change and specifically what part of the data was deleted. Without version control, it will be a tedius, long, and frustrating process to fix everything, this is why Git is important.</p>
+
+<p>Git is a version control software that allows you to track and manage changes to files, so let's go over how to get started using Git!</p>
+</div>
+
+<div class="content-wrapper">
+<h2 id=download-installer>Download the Installer</h2>
+<p>Go to <a style="text-decoration: underline;font-weight: bold;" href="https://git-scm.com/download/win">https://git-scm.com/download/win</a></p>
+<ul style="line-height: 2;">
+<li>Run setup wizard (double-click the .exe).</li>
+<li>Add Git to environment PATH.</li>
+<li>Select "Environment variable".</li>
+<li>Under "System variables" select "Path" and click "Edit".</li>
+<li>Click "New" and add path, example:<br>
+<span style="font-weight: bold;">C:\Program Files\Git\cmd</span></li>
+<li>Verify Install:<br>
+<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+<code>git --version</code></pre></li>
+</ul>
+</div>
+
+<div class="content-wrapper">
+<h2 id=getting-started>Getting started with Git</h2>
+<ul style="line height: 2;">
+<li>First-time configuration:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>git config --global user.name "Your name"
+git congif --global user.email "you@example.com"
+</code></pre></li>
+<li>Use cd to navigate to desired directory:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>cd "C:/Program Files/User"</code></pre></li>
+<li>Create folder in Git:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>mkdir my-project && cd my-project</code></pre></li>
+<li>Set up repo:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>git init</code></pre></li>
+<li>Adding files:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>git add RData_file.R</code></pre></li>
+<li>Add commit message:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;">
+<code>git commit -m "Initial commit"</code></pre></li>
+</ul>
+</div>
+
+<!--Docker -->
+<h1>Docker - Container Orchestration</h1>
+<h2 id=docker-intro>Introduction to Docker</h2>
+<span>Last updated on Mon, June 16, 2025</span><br>
+<span style="text-decoration: underline;">Source:</span><span style="font-style: italic;"> Docker Docs.com</span>
+<h2 id=intro-docker>What is Docker?</h2>
+<div class="content-wrapper">
+<p>Docker is a platform that enables the creation of containers, which are lightweight, isolated environments bundling applications, their dependencies, and custom scripts. This isolation ensures consistent deployment and operation across various systems, including vritual machines, local servers, and cloud infrastructures. Docker Desktop is a GUI application that can be installed to manage and interact with Docker containers and images.</p>
+</div>
+
+<div class="content-wrapper">
+<h2 id=installation>Installation</h2>
+<li>Follow this link to install Docker Desktop:<a href="https://www.docker.com/products/docker-desktop/"> https://www.docker.com/products/docker-desktop/</a></li>
+</div>
+<div class="content-wrapper">
+<h2 id=setup-docker>Get Started with Docker</h2>
+<li>How to create a dockerfile:<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;"><code># Use an Ubuntu base image
+FROM Ubuntu:20.04
+
+# Install bioinformatics tools
+Run apt -get update && apt-get install -y\
+bwa\
+samtools\
+fastqc\
+&& apt-cget clean
+
+# Set working directory inside the container
+Run mkdir /home/scripts
+
+# Set default command to run when the container starts
+CMD["R"]
+
+# Copy custom scripts into container
+COPY ./scripts /home/scripts
+
+#Install Bioconductor and other packages
+Run R -e "install.pacakges('BiocManager')"\
+&& Run R -e "BiocManager::install('DESEq2')"\
+&& Run R -e "BiocManager::install([other_packages])"\
+</pre></code></li>
+
+<li>Build Docker image (type in command-line):<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;"><code># Build Docker image
+docker build -t my-r-container .
+</code></pre></li>
+
+<li> Run Docker image (type in command-line):<br>
+<pre style="background-color: #f4f4f4;padding: 10px;border-radius: 5px;"><code># Run Docker image
+docker run -it my-r-container
+</code></pre></li>
+</div>
+
+<div class="content-wrapper">
+<h1 id=variant-nextflow>Variant Calling and Classification using Nextflow</h1>
+<span> Last updated on Tue, July 1, 2025</span><br>
+<span>Citation: </span> <a href="https://www.gimjournal.org/article/S1098-3600(21)03031-8/fulltext">ACMG Standards and Guidelines</a>
+<h2 id=variant-intro>Variant Calling and Variant Classification</h2>
+<h3>Variant Calling</h3>
+<p>Variants (also known as mutations) are changes in a DNA sequence when compared to a reference sequence. Mutations can be pathogenic and lead to health complications ranging from mild issues to severe genetic disorders. Variant calling is essential in identifying pathogenic variants by using computational methods to detect differences in a sample DNA sequence compared to a reference genome.</p>
+<h3>Variant Classification</h3>
+<p> After identifying the variants that are present, the next step is to interpret these variants, also known as variant classification. Variant classification allows for the biological or clinical interpretation on identified variants to determine if a variant is benign, pathogenic, or of unknown significance.</p>
+<h3>Nextflow</h3>
+<p>There are a wide variety tools that can be used for variant calling and classification. For this tutorial, I will be explaining how to perform variant calling and variant classification using Nextflow. Nextflow is a workflow management system designed for reproducible and scalable data analysis pipelines. Using Nextflow, a collection of bioinformatics workflows have been built that include analysis for:</p><ul style"padding-left: 10px;">
+<li>Variant Calling and Classification</li>
+<li>NGS Data Analysis</li>
+<li>Metagenomics</li>
+</ul>
+</div>
+
+<div class="content-wrapper">
+<h2 id=nextflow-getting-started>Getting Started with Nextflow</h2>
+<li>Run this in terminal, Windows PowerShell, Windows Subsystem for Linux (WSL) or Bash:<br>
+<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;"><code> # Nextflow Installation:
+curl -s https://getnextflow.io | bash 
+
+# Create a folder named 'bin' inside your home directory
+mkdir ~/bin/
+
+# Move Nextflow file into folder named 'bin'
+mv nextflow ~/bin/</code></pre>
+</li>
+</li>
+
+<li>Create a nextflow.config file (this can be done in a notepad app):<pre style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;"><code> # General structure of a nextflow.config file
+//. 1 Global workflow parameters
+params {
+  input = 'home/data/*.fastq'
+  outdir = 'home/results'
+  genome = 'hg38'
+  threads = 4
+  email = 'your.email@domain.com'
+}
+
+// 2. Executer settings
+process.executor = 'local'
+
+// 3. Resource defaults for all processes
+process {
+  cpus = 2
+  memory = '4GB'
+  time = '2h'
+  withLabel:big_mem {
+    memory = '32GB'
+    cpus = 8
+  }
+}
+
+// or for variant calling workflows use:
+
+// 3.1 Processes for variant calling
+process {
+  container = 'broadinstitute/gatk:4.2.0.0'
+}
+
+// 4. Docker or Singularity configuration
+docker {
+  enabled = true
+  runOptions = '-u \$(id -u)\$(id -g)'
+}
+
+//5 Custom config includes (optional)
+profiles {
+  profile_name_1 {
+  # configuration settings
+  }
+  profile_name_2 {
+  # configuration settings
+  }
+  ...
+}
+
+// Each profile is like a named preset for running the pipeline in different enviornments or configurations
+
+// 6. Defining enivornment(s) for pipeline to run in
+env {
+  PYTHONNOUSERSITE = 1
+  R_PROFILE_USER = "/.Rprofile"
+  R_ENVIRON_USER = "/.Renviron"
+  JULIA_DEPOT_PATH = "/usr/local/share/julia"
+}
+
+// 7. Define default shell and shell options used by all proces blocks
+process.shell = [
+  "bash",
+  "-C",
+  "-e",
+  "-u",
+  "-o",
+  "pipefail"
+]
+</pre></code></li>
+</div>
+
+</div>
+</div>
+
+</body>
+
+
