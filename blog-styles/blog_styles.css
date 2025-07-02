@@ -51,7 +51,7 @@ outline: 2px solid red;
 }
 
 #TableOfContents > ul > li {
-  background: # f0f0f0;
+  background: #f0f0f0;
   margin-bottom: 5px;
   transition: background-color 0.3s;
 }
