@@ -26,10 +26,8 @@ body {
 
 .navbar {
  background-color: black;
- overflow: hidden;
  display: flex;
  justify-content: center;
- padding: 10px 0;
  position: sticky;
  top: 0;
  z-index: 1000;
@@ -39,11 +37,11 @@ body {
 
 .navbar a {
  color: #0ff;
- padding: 14px 20px;
+ padding: 5px 7px;
  text-decoration: none;
  text-align: center;
  font-family: "Press Start 2P" , Consolas, cursive;
- font-size: 10px;
+ font-size: 1.5rem;
  border: 2px solid #0ff;
  margin: 0 10px;
  background-color: black;
@@ -61,7 +59,7 @@ body {
 
 
 .welcome-header {
- font-size: 72px;
+ font-size: 2.5rem;
  color: black;
  text-align: center;
  font-family: "Press Start 2P", Consolas;
@@ -89,14 +87,10 @@ body {
 }
 
 
-.row-container {
+.about-row-container {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-  width: 100%;
-  gap: 20px; /*Controls spacing between flex children*/
+  gap: 1rem; /*Controls spacing between flex children*/
   }
 
 
@@ -109,7 +103,6 @@ body {
 .right-container {
   flex: 2; /* much wider now */
   line-height: 1.6;
-  width: 100%;
  }
 
 /* outline: 2px solid red; - Draws red box around containers*/
@@ -138,7 +131,7 @@ body {
  }
 
 .portrait-title {
-  font-size: 45px;
+  font-size: 1.5rem;
   text-align: center;
   margin-top: 20px;
 }
@@ -325,12 +318,12 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
 
 <body>
 <nav class="navbar">
- <a href="#about" style="font-size: 40px;">About Me</a>
- <a href="#experience" style="font-size: 40px;">Experience</a>
- <a href="#research-projects" style="font-size: 40px;">Research/Projects</a>
- <a href="blog/blog.html" style="font-size: 40px;" target="_blank">Blog</a>
- <a href="#publications-presentations" style="font-size: 40px;">Publications/Presentations</a>
- <a href="#contact" style="font-size: 40px;">Contact</a>
+ <a href="#about">About Me</a>
+ <a href="#experience">Experience</a>
+ <a href="#research-projects">Research/Projects</a>
+ <a href="blog/blog.html" target="_blank">Blog</a>
+ <a href="#publications-presentations">Publications/Presentations</a>
+ <a href="#contact">Contact</a>
 </nav>
 
 <section id="about">
@@ -340,7 +333,7 @@ Hello and welcome!
 <i class="fas fa-smile smile-icon"></i>
 </h1>
 
-<div class="row-container">
+<div class="about-row-container">
 <div class="left-container">
 <!-- LEFT COLUMN -->
 <div class="about-image">
