@@ -524,7 +524,11 @@ Hello and welcome!
 </div>
 
 <script>
-  function closePopup() {
+ window.onload = function() {
+    document.getElementById('popup').style.display = 'flex';
+  };
+ 
+ function closePopup() {
     document.getElementById('popup').style.display = 'none';
   }
 </script>
