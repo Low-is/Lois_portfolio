@@ -5,8 +5,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lois Portfolio</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
   
 <style> 
 
@@ -15,6 +14,7 @@ body {
   font-size: 100%;
   overflow-x: hidden;
  }
+
 
 * {
  margin: 0;
@@ -38,12 +38,12 @@ body {
 .navbar a {
  color: #0ff;
  padding: 5px 7px;
+ margin: 0 10px;
  text-decoration: none;
  text-align: center;
- font-family: "Press Start 2P" , Consolas, cursive;
+ font-family: "Press Start 2P", Consolas, cursive;
  font-size: 1.5rem;
- border: 2px solid #0ff;
- margin: 0 10px;
+ border: 1px solid #0ff;
  background-color: black;
  transition: all 0.3s ease;
  text-transform: uppercase;
@@ -90,8 +90,8 @@ body {
 .about-row-container {
   display: flex;
   flex-direction: row;
-  gap: 1rem; /*Controls spacing between flex children*/
-  }
+  gap: 1rem;
+}
 
 
 .left-container {
@@ -157,7 +157,7 @@ body {
 
 .fun-facts {
   list-style-type: none;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 1.2;
   padding-left: 0; /* Removes all space on the left side inside an element*/ 
   margin: 0; /* Center the block itself */
@@ -199,7 +199,7 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
 
 .education-section {
   list-style-type: none;
-  font-size: 45px;
+  font-size: 30px;
   line-height: 1.6;
   padding-left: 0;
   margin: 0 auto;
@@ -276,7 +276,7 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
- /* Popup window */
+/* Popup window */
 
 .overlay {
   position: fixed;
@@ -312,7 +312,6 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
   cursor: pointer;
 }
 
-
 </style>
 </head>
 
@@ -321,7 +320,7 @@ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
  <a href="#about">About Me</a>
  <a href="#experience">Experience</a>
  <a href="#research-projects">Research/Projects</a>
- <a href="blog/blog.html" target="_blank">Blog</a>
+ <a href="blog.html" target="_blank">Blog</a>
  <a href="#publications-presentations">Publications/Presentations</a>
  <a href="#contact">Contact</a>
 </nav>
@@ -338,7 +337,7 @@ Hello and welcome!
 <!-- LEFT COLUMN -->
 <div class="about-image">
 <div class="image-block">
- <img class="avatar avatar-sqaure" src="images/Me.jpg" alt="Photo of Lois" style="border-radius: 12px;">
+ <img class="avatar avatar-sqaure" src="Me.jpg" alt="Photo of Lois" style="border-radius: 12px;">
  <div class="portrait-title">
  <h2>Lois Randolph (she/her)</h2>
  </div>
@@ -507,8 +506,7 @@ Hello and welcome!
 </div>
 </section>
 
-
- <div class="overlay" id="popup">
+<div class="overlay" id="popup">
   <div class="popup-box">
     <button class="close-btn" onclick="closePopup()">×</button>
     <h2>🚧 Under Construction</h2>
@@ -517,15 +515,14 @@ Hello and welcome!
 </div>
 
 <script>
- window.onload = function() {
+  window.onload = function() {
     document.getElementById('popup').style.display = 'flex';
   };
- 
- function closePopup() {
+
+  function closePopup() {
     document.getElementById('popup').style.display = 'none';
   }
 </script>
- 
+
 <p style="font-size: 35px;padding: 20px;">Hand-coded with <i class="fas fa-heart" style="color:red;"></i> by Lois Randolph.</p>
 </body>
-
