@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pranava Upparlapalli | Bioinformatics Scientist Portfolio</title>
+
+  <link rel="icon" href="icons/favicon.png" type="image/png">
+  
+  <meta name="description" content="The portfolio of Pranava Upparlapalli, a Bioinformatics Scientist (M.S.) specializing in NGS data analysis, RNA-Seq, GWAS, TWAS, and building scalable computational biology pipelines with Python and R.">
+  <meta name="keywords" content="Pranava Upparlapalli, Bioinformatics, Computational Biology, NGS, RNA-Seq, DNA-Seq, GWAS, TWAS, Pipeline Development, Data Science, Python, R, Nextflow">
+  <meta name="author" content="Pranava Upparlapalli">
+
+  <meta property="og:title" content="Pranava Upparlapalli | Bioinformatics Scientist Portfolio">
+  <meta property="og:description" content="Solving biological problems with data-driven pipelines and AI.">
+  <meta property="og:image" content="icons/favicon.png">
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.11.1/tsparticles.bundle.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12" defer></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EK911H0RT5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EK911H0RT5');
+  </script>
+
+  <script>
+    (function() {
+      const theme = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (theme === 'dark' || (!theme && prefersDark)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Pranava Upparlapalli",
+    "jobTitle": "Bioinformatics Scientist",
+    "url": "YOUR_WEBSITE_URL",
+    "sameAs": [
+      "https://linkedin.com/in/pranava-u",
+      "https://github.com/Bit-2310"
+    ],
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "University of Texas at Dallas"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Bharati Vidyapeeth University"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Sri Venkateswara University"
+      }
+    ],
+    "knowsAbout": ["Bioinformatics", "Computational Biology", "Next-Generation Sequencing", "RNA-Seq", "GWAS", "TWAS", "Python", "R", "Nextflow"]
+  }
+  </script>
+
+  <style>
+    /* CSS Custom Properties (Variables) */
+    :root {
+      --primary-font: 'Poppins', sans-serif;
+      --bg-light: #f5f7fa;
+      --text-light: #2C3E50;
+      --subtext-light: #566573;
+      --bg-dark: #0f0f11;
+      --text-dark: #f0f0f0; /* Brighter white for dark mode text */
+      --subtext-dark: #b0bdc9;
+      --accent-color: #5DADE2;
+      --accent-glow: rgba(93, 173, 226, 0.4);
+      --primary-color: #1A5276;
+      --secondary-color: #117A8B;
+      --card-bg-light: #ffffff;
+      --card-bg-dark: rgba(30, 31, 35, 0.7);
+      --card-bg-dark-hover: rgba(45, 46, 52, 0.7);
+      --shadow-light: rgba(0, 0, 0, 0.08);
+      --shadow-dark: rgba(0, 0, 0, 0.3);
+      --border-light: rgba(0,0,0,0.1);
+      --border-dark: rgba(255,255,255,0.1);
+    }
+
+    /* Base Styles */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: var(--primary-font);
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      overflow-x: hidden;
+      transition: background 0.3s ease, color 0.3s ease;
+    }
+
+    /* Dark Mode */
+    html.dark body {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    /* Particle Background */
+    #tsparticles {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 1.2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.5rem 1.2rem;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 50px;
+      box-shadow: 0 8px 24px var(--shadow-light);
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      max-width: calc(100% - 2rem);
+    }
+
+    .nav-container {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+    }
+
+    .nav-links a, #portfolio-toggle {
+      display: inline-block;
+      padding: 0.45rem 1rem;
+      background: var(--primary-color);
+      color: #ffffff;
+      border-radius: 32px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease;
+      border: 1.5px solid var(--accent-color);
+      cursor: pointer;
+    }
+
+    .nav-links a:hover, #portfolio-toggle:hover {
+      background: var(--accent-color);
+      color: var(--bg-dark);
+      box-shadow: 0 6px 20px rgba(93, 173, 226, 0.6);
+      transform: scale(1.06);
+    }
+
+    /* Theme Toggle Button */
+    #theme-toggle {
+      margin-left: 0.5rem;
+      padding: 0; /* Remove padding for flex centering */
+      font-size: 1.2rem; /* Slightly larger emoji */
+      border-radius: 50%;
+      width: 2.5rem;
+      height: 2.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Hero Section */
+    .hero {
+      min-height: 100vh;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero img {
+      border-radius: 20px;
+      width: 180px;
+      height: auto;
+      object-fit: cover;
+      margin-bottom: 0.2rem;
+    }
+
+    .hero h1 {
+      font-size: 3.5rem;
+      margin: 0.2rem 0;
+      font-weight: 700;
+      color: var(--primary-color);
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      max-width: 700px;
+    }
+
+    .typed-text {
+      font-size: 1.3rem;
+      color: var(--accent-color);
+      margin: 0 0 1rem 0;
+      font-weight: 600;
+      display: block;
+      min-height: 2em; /* Prevents layout shift */
+    }
+
+    /* Buttons */
+    .contact-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .button-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .btn-icon {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.75rem 1.75rem;
+      border-radius: 40px;
+      background: rgba(93, 173, 226, 0.1);
+      color: var(--primary-color);
+      font-weight: 600;
+      text-decoration: none;
+      border: 0.5px solid rgba(93, 173, 226, 0.3);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 4px 8px rgba(93, 173, 226, 0.25);
+      transition: 0.3s ease;
+    }
+
+    .btn-icon:hover {
+      background: rgba(93, 173, 226, 0.25);
+      box-shadow: 0 6px 16px rgba(93, 173, 226, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .btn-icon img {
+      width: 20px;
+      height: 20px;
+    }
+
+    /* Portfolio Dropdown */
+    .portfolio-dropdown {
+      position: relative;
+    }
+
+    .portfolio-menu {
+      visibility: hidden;
+      opacity: 0;
+      position: absolute;
+      top: calc(100% + 10px);
+      left: 50%;
+      transform: translateX(-50%) translateY(-10px);
+      background: rgba(255, 255, 255, 0.75);
+      border: 1px solid rgba(0, 191, 255, 0.4);
+      border-radius: 22px;
+      padding: 1rem 0.9rem;
+      box-shadow: 0 12px 28px rgba(0, 191, 255, 0.15);
+      backdrop-filter: blur(14px);
+      z-index: 1001;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      gap: 0.65rem;
+      transition: all 0.3s ease;
+      pointer-events: none;
+    }
+
+    .portfolio-menu.show {
+      visibility: visible;
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+      pointer-events: auto;
+    }
+
+    .portfolio-menu a {
+      background: rgba(255, 255, 255, 0.4);
+      color: #003b66;
+      font-weight: 500;
+      padding: 0.65rem 1.2rem;
+      border-radius: 40px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 1px solid transparent;
+    }
+
+    .portfolio-menu a:hover {
+      background: #00bfff;
+      color: #ffffff;
+      font-weight: 600;
+    }
+
+    /* Sections */
+    .section {
+      padding: 5rem 2rem;
+      text-align: center;
+    }
+
+    .section h1 {
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      color: var(--secondary-color);
+      position: relative;
+    }
+
+    .section h1::after {
+      content: "";
+      width: 80px;
+      height: 4px;
+      background: var(--secondary-color);
+      position: absolute;
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 10px;
+    }
+
+    /* Containers */
+    .section-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 2rem auto 0;
+    }
+    
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      width: 100%;
+      margin: 2rem auto 0;
+    }
+
+    /* Card Styles */
+    .card {
+      background: var(--card-bg-light);
+      padding: 1.8rem;
+      border-radius: 16px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+      box-shadow: 0 4px 12px var(--shadow-light);
+      text-align: left;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+      color: var(--text-light);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12), 0 0 20px var(--accent-glow);
+    }
+    
+    .card h3 {
+      font-size: 1.25rem;
+      color: var(--secondary-color);
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+    }
+    
+    .card p, .card li {
+      line-height: 1.6;
+      color: var(--text-light); /* Base color for paragraphs */
+    }
+
+    .card ul {
+        padding-left: 20px;
+        margin-top: 0.5rem;
+        flex-grow: 1; /* Allows list to take up space */
+    }
+
+    /* Subtext styling */
+    .work-block .place, .education-block .sub {
+      color: var(--subtext-light);
+      margin-bottom: 0.8rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
+
+    .expertise-block {
+      text-align: center;
+    }
+    
+    .expertise-block img {
+      width: 80px;
+      max-width: 90px;
+      height: auto;
+      margin: 0 auto 1rem auto;
+      display: block;
+    }
+
+    /* Project Card Specifics */
+    .project-card, .project-card-static {
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+    }
+    /* Fix for icon overlap */
+    .project-card h3, .project-card-static h3 {
+        padding-right: 30px; 
+    }
+    .project-card .tools, .project-card-static .tools {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--primary-color);
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(0,0,0,0.05);
+    }
+    
+    .gh-icon, .study-icon {
+      position: absolute;
+      top: 1.2rem;
+      right: 1.2rem;
+      width: 24px;
+      height: 24px;
+      opacity: 0.6;
+      transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .project-card:hover .gh-icon, .project-card-static:hover .study-icon {
+      transform: scale(1.2);
+      opacity: 1;
+    }
+
+    /* Skills Section */
+    .featured-skills-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        padding: 1.5rem;
+        max-width: 900px;
+        margin-inline: auto;
+    }
+    .featured-skills-grid .skill-item img {
+        width: 64px;
+        height: auto;
+        transition: transform 0.3s ease;
+    }
+    .featured-skills-grid .skill-item img:hover {
+        transform: scale(1.15);
+    }
+    #skills .section-container {
+        max-width: 1000px;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+    .skill-group {
+        text-align: left;
+    }
+    .skill-group h3 {
+        text-align: center;
+    }
+    .skill-group ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    .skill-group li {
+      margin-bottom: 0.4rem;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+    
+    /* Education Card Specifics */
+    .education-block .courses {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        border-top: 1px solid rgba(0,0,0,0.05);
+    }
+    .education-block .courses strong {
+        font-weight: 600;
+    }
+    .education-block .courses li {
+        margin-bottom: 0.5rem;
+    }
+    
+    /* Contact Form Styles */
+    #contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        max-width: 700px;
+        margin: 2rem auto 0;
+        text-align: left;
+    }
+    #contact-form input, #contact-form textarea {
+        font-family: var(--primary-font);
+        font-size: 1rem;
+        padding: 1rem;
+        border-radius: 8px;
+        border: 1px solid var(--border-light);
+        background-color: var(--bg-light);
+        color: var(--text-light);
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+    #contact-form input:focus, #contact-form textarea:focus {
+        outline: none;
+        border-color: var(--accent-color);
+        box-shadow: 0 0 8px var(--accent-glow);
+    }
+    #contact-form textarea {
+        resize: vertical;
+        min-height: 150px;
+    }
+    #contact-form button {
+        font-family: var(--primary-font);
+        font-size: 1rem;
+        font-weight: 600;
+        padding: 1rem;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--primary-color);
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+    #contact-form button:hover {
+        background-color: var(--accent-color);
+        transform: translateY(-2px);
+    }
+
+
+    /* Dark Mode Styles */
+    html.dark .card {
+      background: var(--card-bg-dark);
+      border-color: var(--border-dark);
+      box-shadow: 0 6px 20px var(--shadow-dark);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+    }
+    html.dark .card:hover {
+      background: var(--card-bg-dark-hover);
+      box-shadow: 0 12px 24px var(--shadow-dark), 0 0 20px var(--accent-glow);
+    }
+    html.dark nav, html.dark .portfolio-menu {
+      background: rgba(30, 30, 30, 0.7);
+      border-color: var(--border-dark);
+      box-shadow: 0 10px 30px var(--shadow-dark);
+    }
+    html.dark .btn-icon { color: var(--text-dark); }
+    html.dark .card h3 { color: var(--accent-color); }
+    
+    /* Brighter dark mode text */
+    html.dark .card p,
+    html.dark .card li,
+    html.dark .work-block .place, 
+    html.dark .education-block .sub {
+      color: var(--text-dark);
+    }
+    
+    /* Make "Relevant Coursework" pop */
+    html.dark .education-block .courses {
+        border-top-color: var(--border-dark);
+    }
+    html.dark .education-block .courses strong {
+      color: var(--accent-color);
+    }
+
+    html.dark .project-card .tools, html.dark .project-card-static .tools { 
+        color: #aad3ff; 
+        border-top-color: var(--border-dark);
+    }
+    html.dark .gh-icon, html.dark .study-icon { 
+        filter: brightness(0) invert(1); 
+    }
+    html.dark .featured-skills-grid {
+        border-color: var(--border-dark);
+    }
+    html.dark #contact-form input, html.dark #contact-form textarea {
+        background-color: #1e1f23;
+        border-color: var(--border-dark);
+        color: var(--text-dark);
+    }
+
+    /* Mobile Responsive Styles */
+    @media (max-width: 768px) {
+      nav {
+        bottom: 1rem;
+        top: auto;
+        width: calc(100% - 2rem);
+        max-width: max-content;
+      }
+      .nav-links a, #portfolio-toggle {
+        padding: 0.35rem 0.75rem;
+        font-size: 0.7rem;
+      }
+      .hero h1 { font-size: 2.5rem; }
+      .hero p, .typed-text { font-size: 1rem; }
+      .section { padding: 4rem 1rem; }
+      .section h1 { font-size: 2.2rem; }
+      .section-container, .projects-container { grid-template-columns: 1fr; }
+      
+      /* FIX for mobile dropdown menu */
+      .portfolio-menu {
+        top: auto;
+        bottom: calc(100% + 12px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="tsparticles"></div>
+
+  <nav>
+    <div class="nav-container">
+      <div class="nav-links">
+        <a href="#about">About Me</a>
+        <div class="portfolio-dropdown">
+          <button id="portfolio-toggle" aria-haspopup="true" aria-expanded="false" aria-controls="portfolio-menu">Portfolio ▾</button>
+          <div class="portfolio-menu" id="portfolio-menu" role="menu">
+            <a href="#expertise" role="menuitem">Areas of Expertise</a>
+            <a href="#work" role="menuitem">Work Experience</a>
+            <a href="#projects" role="menuitem">Projects</a>
+            <a href="#skills" role="menuitem">Skills</a>
+            <a href="#education" role="menuitem">Education</a>
+          </div>
+        </div>
+        <a href="#contact">Contact</a>
+      </div>
+      <button id="theme-toggle" class="btn-icon" aria-label="Toggle theme">🌙</button>
+    </div>
+  </nav>
+
+  <main>
+    <section class="hero" id="about">
+      <img src="icons/profile.png" alt="Profile picture of Pranava Upparlapalli">
+      <h1>Pranava Upparlapalli</h1>
+      <span id="typed" class="typed-text"></span>
+      <p>As a bioinformatics scientist (M.S.), I thrive on partnering with research teams to solve their most pressing data challenges. I build effective, automated pipelines using Python, R, and Nextflow to support and advance their data-driven scientific goals.</p>
+      <blockquote>"Bridging biology and data with clarity and purpose."</blockquote>
+      <div class="contact-buttons">
+        <div class="button-row">
+          <a href="mailto:pxu.bioinfo@gmail.com" class="btn-icon">
+            <img src="icons/email.png" alt="Email Icon"> Email
+          </a>
+          <a href="https://linkedin.com/in/pranava-u" target="_blank" class="btn-icon" aria-label="LinkedIn Profile of Pranava Upparlapalli">
+            <img src="icons/linkedin.png" alt="LinkedIn Icon"> LinkedIn
+          </a>
+          <a href="https://github.com/Bit-2310" target="_blank" class="btn-icon" aria-label="GitHub Profile of Pranava Upparlapalli">
+            <img src="icons/github.png" alt="GitHub Icon"> GitHub
+          </a>
+        </div>
+        <div class="button-row">
+          <a class="btn-icon" href="assets/Bioinformatics Industrial Resume.pdf" download>
+            <img src="icons/resume.png" alt="Resume Icon"> Download Resume
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="expertise">
+      <h1>Areas of Expertise</h1>
+      <div class="section-container">
+          <div class="card expertise-block">
+            <img src="icons/NGS.png" alt="NGS Icon"/>
+            <h3>Next-Generation Sequencing (NGS) Data Processing</h3>
+            <p>Develop end-to-end pipelines for RNA-Seq, DNA-Seq, and targeted sequencing to transform raw reads into high-confidence, interpretable biological data.</p>
+          </div>
+          <div class="card expertise-block">
+            <img src="icons/G.png" alt="Genomics Icon"/>
+            <h3>Genomic Data Analysis and Interpretation</h3>
+            <p>Analyze large-scale genomic datasets to interpret gene regulation, assess variant effects, and uncover clinically meaningful trait associations.</p>
+          </div>
+          <div class="card expertise-block">
+            <img src="icons/DS.png" alt="Data Science Icon"/>
+            <h3>Bioinformatics and Statistical Data Analysis</h3>
+            <p>Apply rigorous statistical methods and bioinformatics tools to generate accurate, reproducible insights from complex omics datasets.</p>
+          </div>
+          <div class="card expertise-block">
+            <img src="icons/ML.png" alt="Machine Learning Icon"/>
+            <h3>Machine Learning Applications in Computational Biology</h3>
+            <p>Design and deploy ML models for classification, prediction, and dimensionality reduction, adapted to the intricacies of biological data.</p>
+          </div>
+          <div class="card expertise-block">
+            <img src="icons/chromosome.png" alt="GWAS-TWAS Icon"/>
+            <h3>GWAS and TWAS Pipeline Development</h3>
+            <p>Build integrative workflows combining genotype, expression, and chromatin interaction data for trait-gene mapping.</p>
+          </div>
+          <div class="card expertise-block">
+            <img src="icons/pipeline.png" alt="Pipeline Automation Icon"/>
+            <h3>Workflow Automation and Scalable Pipeline Design</h3>
+            <p>Develop modular, version-controlled pipelines using Snakemake, Nextflow, and shell scripting to automate and scale bioinformatics workflows.</p>
+          </div>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <h1>Work Experience</h1>
+      <div class="section-container">
+        <div class="card work-block">
+          <h3>Graduate Researcher – TWAS & Genomic Modeling</h3>
+          <p class="place">Dr. Xuan’s Lab, University of Texas at Dallas (Jan 2024 – Present)</p>
+          <ul>
+            <li>Tested a GWAS-based machine learning algorithm based on PrediXcan using genomic data to accurately predict gene expression in different tissues.</li>
+            <li>Analyzed the role of trans SNPs using HI-C data, to decipher the relationship between genotype and phenotype using SNP variants.</li>
+            <li>Created pipelines and provided efficient data analysis using Bash scripting and HPC computing.</li>
+          </ul>
+        </div>
+        <div class="card work-block">
+          <h3>Undergraduate Researcher – Biochemical Assay Development</h3>
+          <p class="place">Sree Vidyanikethan Degree College, Tirupati (Aug 2020 – Mar 2021)</p>
+          <ul>
+            <li>Researched and characterized the antioxidant properties of Biancaea sappan, employing advanced biochemical assays for compound analysis.</li>
+            <li>Designed and executed lab experiments that increased compound yield efficiency by 15%.</li>
+            <li>Optimized growth conditions by formulating specialized media and conducting antibacterial assays.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section" id="projects">
+      <h1>Projects</h1>
+      <div class="projects-container">
+        <a class="card project-card" href="https://bit-2310.github.io/SeqMorph/" target="_blank">
+          <h3>SeqMorph: Sequence Mutation Simulator</h3>
+          <p>Engineered a versatile bioinformatics tool in Python to simulate diverse mutations in DNA, RNA, and protein sequences.</p>
+          <div class="tools">Python · Biopython · Pandas</div>
+          <img class="gh-icon" src="icons/github.png" alt="GitHub">
+        </a>
+        <a class="card project-card" href="https://bit-2310.github.io/cancer-rna-seq-analysis/" target="_blank">
+          <h3>Cancer RNA-Seq Expression Analysis</h3>
+          <p>Built a complete R-based pipeline to perform QC, normalization, and differential expression analysis using DESeq2 across five major cancer types.</p>
+          <div class="tools">R · DESeq2 · ggplot2 · pheatmap</div>
+          <img class="gh-icon" src="icons/github.png" alt="GitHub">
+        </a>
+        <div class="card project-card-static">
+          <h3>Nociception Study using Secondary Metabolites</h3>
+          <p>Studied nociceptive effects of gut microbiota–derived secondary metabolites, linking microbial activity to pain signaling pathways.</p>
+          <div class="tools">AntiSMASH · PCR · Microbial techniques</div>
+          <img class="study-icon" src="icons/study.png" alt="Publication or study icon">
+        </div>
+        <a class="card project-card" href="https://github.com/Bit-2310/yeast-stress" target="_blank">
+          <h3>Yeast Stress RNA-Seq Pipeline</h3>
+          <p>Designed a reproducible RNA-Seq analysis pipeline using Nextflow and Docker, incorporating Fastp, HISAT2, and SAMtools.</p>
+          <div class="tools">Nextflow · DESeq2 · Docker · MultiQC</div>
+          <img class="gh-icon" src="icons/github.png" alt="GitHub">
+        </a>
+        <a class="card project-card" href="https://github.com/Bit-2310/Gleason_Classifier" target="_blank">
+          <h3>Gleason Score Classification (DL)</h3>
+          <p>Designed a deep learning pipeline using ResNet-50 for prostate cancer classification, achieving 90% classification accuracy.</p>
+          <div class="tools">TensorFlow · Keras · Python</div>
+          <img class="gh-icon" src="icons/github.png" alt="GitHub">
+        </a>
+        <a class="card project-card" href="https://github.com/Bit-2310/yeast-stress" target="_blank">
+          <h3>DDSEQ2 RNA-Seq Analysis</h3>
+          <p>Differential gene expression pipeline in R using DESeq2 with custom visualization outputs.</p>
+          <div class="tools">R · DESeq2 · ggplot2</div>
+          <img class="gh-icon" src="icons/github.png" alt="GitHub">
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+        <h1>Skills & Proficiencies</h1>
+        <div class="featured-skills-grid">
+                    <div class="skill-item"><img src="https://img.icons8.com/color/64/python.png" alt="Python"></div>
+                    <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg" alt="R"></div>
+                    <div class="skill-item"><img src="https://d33wubrfki0l68.cloudfront.net/8fe2cfeda869b96dde8c0776f5f305969f860002/c31dc/img/symbol/svg/monochrome_dark.svg" alt="Shell"></div>
+                    <div class="skill-item"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" alt="PySpark"></div>
+                    <div class="skill-item"><img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="Git"></div>
+                    <div class="skill-item"><img src="https://avatars.githubusercontent.com/u/6698688?s=200&v=4" alt="Nextflow"></div>
+                    <div class="skill-item"><img src="https://avatars.githubusercontent.com/u/33450111?s=200&v=4" alt="Snakemake"></div>
+                    <div class="skill-item"><img src="https://img.icons8.com/color/64/docker.png" alt="Docker"></div>
+        </div>
+        <div class="section-container" id="skills-container">
+              <div class="card skill-group">
+                <h3>Programming & Databases</h3>
+                <ul>
+                  <li>Python, R, Bash/Shell, SQL</li>
+                  <li>Pandas, NumPy</li>
+                  <li>NCBI, Ensembl, GEO, KEGG, dbSNP</li>
+                </ul>
+              </div>
+              <div class="card skill-group">
+                <h3>Machine Learning</h3>
+                <ul>
+                  <li>Scikit-learn, PyTorch</li>
+                  <li>Deep Learning (CNNs, ResNet)</li>
+                  <li>Model Evaluation</li>
+                </ul>
+              </div>
+              <div class="card skill-group">
+                <h3>Workflow & Cloud</h3>
+                <ul>
+                  <li>Nextflow, Docker, Git, Conda</li>
+                  <li>Slurm, HPC</li>
+                  <li>AWS (S3, EC2)</li>
+                </ul>
+              </div>
+              <div class="card skill-group">
+                <h3>Genomics & Analysis</h3>
+                <ul>
+                  <li>RNA-Seq, ChIP-Seq, scRNA-Seq (Seurat, Scanpy)</li>
+                  <li>Variant Calling (GATK), Hi-C</li>
+                  <li>GWAS, TWAS, eQTL</li>
+                </ul>
+              </div>
+              <div class="card skill-group">
+                <h3>Documentation & Governance</h3>
+                <ul>
+                    <li>Version Control</li>
+                    <li>Reproducibility</li>
+                    <li>Good Documentation Practice (GDP)</li>
+                    <li>Evaluation Metrics & Risk-Based Assessment</li>
+                </ul>
+              </div>
+        </div>
+    </section>
+    
+    <section class="section" id="education">
+        <h1>Education</h1>
+        <div class="section-container">
+            <div class="card education-block">
+                <h3>MS: Bioinformatics and Computational Biology</h3>
+                <p class="sub">University of Texas at Dallas (UTD) — Expected May 2025</p>
+                <div class="courses">
+                  <strong>Relevant Coursework:</strong>
+                  <ul>
+                    <li>Applied Bioinformatics</li>
+                    <li>Statistics in Bioinformatics</li>
+                    <li>Molecular Biology</li>
+                    <li>Algorithms & Data Structures</li>
+                    <li>Medical Image Analysis</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card education-block">
+                <h3>Advanced Diploma: Bioinformatics</h3>
+                <p class="sub">Bharati Vidyapeeth University (BVDU) — 2022</p>
+                <div class="courses">
+                    <strong>Relevant Coursework:</strong>
+                    <ul>
+                      <li>Biological Informatics</li>
+                      <li>Biostatistics</li>
+                      <li>Data Mining & ML</li>
+                      <li>Molecular Modeling</li>
+                      <li>R & Data Analytics</li>
+                    </ul>
+                </div>
+              </div>
+              <div class="card education-block">
+                <h3>BSc: Microbiology, Biochemistry, Chemistry</h3>
+                <p class="sub">Sri Venkateswara University (SVU) — 2020</p>
+                <div class="courses">
+                    <strong>Relevant Coursework:</strong>
+                    <ul>
+                      <li>Microbial Physiology</li>
+                      <li>Medical Microbiology</li>
+                      <li>Immunology</li>
+                      <li>Biomolecules</li>
+                      <li>Biotechnology</li>
+                    </ul>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h1>Contact Me</h1>
+      <p>Have a question or want to work together? Feel free to reach out!</p>
+      <form id="contact-form" action="https://formspree.io/f/xwpqrvjv" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Theme Toggle Logic
+      const toggleBtn = document.getElementById('theme-toggle');
+      if(document.documentElement.classList.contains('dark')) {
+        toggleBtn.textContent = '☀️';
+      } else {
+        toggleBtn.textContent = '🌙';
+      }
+
+      toggleBtn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        const isDark = document.documentElement.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        toggleBtn.textContent = isDark ? '☀️' : '🌙';
+      });
+
+      // Typed.js Initialization
+      new Typed("#typed", {
+        strings: [
+          "Building robust NGS pipelines",
+          "Making sense of complex RNA-Seq data",
+          "Connecting genes to traits with TWAS & GWAS",
+          "Automating workflows for reproducible research",
+          "Writing clean code in Python and R",
+          "Integrating multi-omics to see the full picture",
+          "Translating data into biological insight",
+          "Bridging computation and discovery"
+        ],
+        typeSpeed: 70,
+        backSpeed: 50,
+        backDelay: 2000,
+        loop: true,
+        smartBackspace: true,
+        showCursor: false
+      });
+      
+      // Portfolio Dropdown Logic
+      const portfolioDropdown = document.querySelector('.portfolio-dropdown');
+      const toggleButton = document.getElementById('portfolio-toggle');
+      const dropdownMenu = document.getElementById('portfolio-menu');
+
+      toggleButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isExpanded = dropdownMenu.classList.toggle('show');
+        toggleButton.setAttribute('aria-expanded', isExpanded);
+      });
+
+      document.addEventListener('click', () => {
+        if (dropdownMenu.classList.contains('show')) {
+          dropdownMenu.classList.remove('show');
+          toggleButton.setAttribute('aria-expanded', 'false');
+        }
+      });
+
+      portfolioDropdown.addEventListener('focusout', (e) => {
+        if (!portfolioDropdown.contains(e.relatedTarget)) {
+            dropdownMenu.classList.remove('show');
+            toggleButton.setAttribute('aria-expanded', 'false');
+        }
+      });
+      
+      // Particle BG
+      tsParticles.load("tsparticles", {
+        fpsLimit: 60,
+        interactivity: {
+          events: { onHover: { enable: true, mode: "repulse" }, resize: true },
+          modes: { repulse: { distance: 60, duration: 0.3 } }
+        },
+        particles: {
+          number: { density: { enable: true, area: 1200 }, value: 35 },
+          color: { value: "#5DADE2" },
+          shape: { type: "circle" },
+          opacity: { value: 0.35 },
+          size: { value: { min: 1, max: 8 } },
+          move: {
+            enable: true,
+            speed: 0.75,
+            direction: "none",
+            random: true,
+            straight: false,
+            outModes: { default: "bounce" }
+          },
+          links: {
+            enable: true,
+            color: "#5DADE2",
+            distance: 150,
+            opacity: 0.45,
+            width: 0.8
+          }
+        },
+        detectRetina: true
+      });
+    });
+  </script>
+</body>
+</html>
