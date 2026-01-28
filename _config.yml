@@ -1,8 +1,5 @@
-title: "Lois Randolph Portfolio"
-description: "My portfolio site"
-baseurl: ""  # leave empty if your repo is user.github.io
-url: "https://low-is.github.io"
-
-theme: minima   # GitHub-supported theme
-plugins:
-  - jekyll-feed
+title: Architect theme
+description: Architect is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-architect
