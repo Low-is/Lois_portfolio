@@ -35,7 +35,6 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 
 ## Experience
-## Experience
 
 <div class="timeline-container">
 
