@@ -11,6 +11,7 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+---
 ## About Me
 
 Thank you for visiting my portfolio page! My name is Lois Randolph and I was born and raised in San Antonio, Texas. I attended the University of Texas at San Antonio where I received my B.S. in Biology with a minor in Mathematics. I spent a gap year as a PREP (Postbaccalaureate Research Education Program) scholar at the University of Texas Health Science Center San Antonio, successfully finishing the year-long rigorous program that prepared me for graduate school. After completing my post-bac program, I was later accepted into the UT Health SA Graduate School of Biomedical Sciences where I earned my M.S. in Cancer Biology. During my time in graduate school, I served as the Advocacy Chair for UTHSCSA PRIDE and vice president for ALLIES, volunteering at clinical events that raise awareness to queer youth having access to healthcare, mental health resources, educational development programs, and hosting multiple student-led social events.
@@ -18,13 +19,32 @@ Thank you for visiting my portfolio page! My name is Lois Randolph and I was bor
 
 I'm a biologist by training but a programmer at heart, with a deep passion for precision medicine, computational biology, data science, machine learning, AI, and data engineering. I'm primarily self-taught in R, Python, SQL, HTML, CSS and Linux. I enjoy the challenges presented to me that involve, building prediction models to identify biomarkers to improve medical treatments, manage tools & databases used by teams, institutions, and companies for data storage, data processing, and quality control, and developing pipelines that can automate tasks improving work efficiency. Though this is a different career path I was not expecting, I believe that "where there is passion and inspiration, you can't go wrong".
 
+---
+
+### Education
+| Degree | Institution | Year |
+|--------|------------|------|
+| M.S. in Cancer Biology | University of Texas Health Science Center San Antonio | 2023 |
+| B.S. in Biology, Minor in Mathematics | University of Texas at San Antonio | 2020 |
+
+---
+
+
+## Experience
+
 ### Fun Facts
+
+* your friendly neighborhood bioinformatician 🖥️
+* Avid Rollerblader 🛼
+* Rubix's Cube Enthusiast 🤓
+* Unapologetically an anime fanatic 🥷
+* Probably dancing while you're reading this 💃🏾
+
+Example using blockqoute:
 
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
 
 ```js
 // Javascript code with syntax highlighting.
