@@ -1,5 +1,8 @@
 title: "Lois Randolph Portfolio"
-description: "Bioinformatics & Data Science Portfolio"
-baseurl: "/Lois_portfolio"   # important, matches your repo name
+description: "My portfolio site"
+baseurl: ""  # leave empty if your repo is user.github.io
 url: "https://low-is.github.io"
-theme: architect            # if using a theme
+
+theme: minima   # GitHub-supported theme
+plugins:
+  - jekyll-feed
