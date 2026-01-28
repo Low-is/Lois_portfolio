@@ -25,7 +25,7 @@ Hello and welcome!
 <!-- LEFT COLUMN -->
 <div class="about-image">
 <div class="image-block">
- <img src="{{ '/assets/images/Me.jpg' | relative_url }}" alt="Photo of Lois">
+ <img src="assets/images/Me.jpg" alt="Photo of Lois">
  <div class="portrait-title">
  <h2>Lois Randolph (she/her)</h2>
  </div>
