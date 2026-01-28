@@ -4,7 +4,6 @@ title: "Home"
 ---
 
 
-<body>
 <nav class="navbar">
  <a href="#about">About Me</a>
  <a href="#experience">Experience</a>
@@ -417,4 +416,3 @@ The obesity epidemic in the USA is increasing the risk of aggressive triple-nega
 </script>
 
 <p style="font-size: 35px;padding: 20px;border-top: 5px solid black;">Hand-coded with <i class="fas fa-heart" style="color:red;"></i> by Lois Randolph.</p>
-</body>
