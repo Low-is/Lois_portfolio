@@ -27,6 +27,12 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 | M.S. in Cancer Biology | University of Texas Health Science Center San Antonio | 2023 |
 | B.S. in Biology, Minor in Mathematics | University of Texas at San Antonio | 2020 |
 
+
+|  Degree        | Institution          | Year |
+|:-------------|:------------------|:------|
+| M.S. in Cancer Biology | University of Texas Health Science Center San Antonio | 2023 |
+| B.S. in Biology, Minor in Mathematics | University of Texas at San Antonio | 2020 |
+
 ---
 
 
@@ -45,6 +51,8 @@ Example using blockqoute:
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+
+---
 
 ```js
 // Javascript code with syntax highlighting.
