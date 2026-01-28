@@ -2,3 +2,54 @@
 ---
 
 @import 'jekyll-theme-architect';
+
+
+/* =========================
+   YOUR CUSTOM TIMELINE CSS
+   ========================= */
+
+.timeline-container {
+  position: relative;
+  padding-left: 3rem;
+  margin: 2rem 0;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  left: 18px;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: linear-gradient(to bottom, #6366f1, #22d3ee);
+}
+
+.timeline-card {
+  position: relative;
+  background: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -34px;
+  top: 28px;
+  width: 14px;
+  height: 14px;
+  background: #6366f1;
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px #e0e7ff;
+}
+
+.timeline-card h3 {
+  margin-top: 0;
+}
+
+.timeline-meta {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
