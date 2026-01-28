@@ -2,19 +2,23 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Hello and Welcome! 😊
 
+This is my personal portfolio. Below you can explore my background, research, and experience.
 [Link to another page](./another-page.html).
 
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 1
+## About Me
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Thank you for visiting my portfolio page! My name is Lois Randolph and I was born and raised in San Antonio, Texas. I attended the University of Texas at San Antonio where I received my B.S. in Biology with a minor in Mathematics. I spent a gap year as a PREP (Postbaccalaureate Research Education Program) scholar at the University of Texas Health Science Center San Antonio, successfully finishing the year-long rigorous program that prepared me for graduate school. After completing my post-bac program, I was later accepted into the UT Health SA Graduate School of Biomedical Sciences where I earned my M.S. in Cancer Biology. During my time in graduate school, I served as the Advocacy Chair for UTHSCSA PRIDE and vice president for ALLIES, volunteering at clinical events that raise awareness to queer youth having access to healthcare, mental health resources, educational development programs, and hosting multiple student-led social events.
 
-## Header 2
+
+I'm a biologist by training but a programmer at heart, with a deep passion for precision medicine, computational biology, data science, machine learning, AI, and data engineering. I'm primarily self-taught in R, Python, SQL, HTML, CSS and Linux. I enjoy the challenges presented to me that involve, building prediction models to identify biomarkers to improve medical treatments, manage tools & databases used by teams, institutions, and companies for data storage, data processing, and quality control, and developing pipelines that can automate tasks improving work efficiency. Though this is a different career path I was not expecting, I believe that "where there is passion and inspiration, you can't go wrong".
+
+### Fun Facts
 
 > This is a blockquote following a header.
 >
