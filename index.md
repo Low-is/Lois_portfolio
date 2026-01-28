@@ -3,6 +3,7 @@ layout: default
 title: "Home"
 ---
 
+<link rel="stylesheet" href="assets/css/style.css">
 
 <nav class="navbar">
  <a href="#about">About Me</a>
