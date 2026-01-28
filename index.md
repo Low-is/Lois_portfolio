@@ -36,41 +36,25 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 ## Experience
 
-<div class="timeline-container">
+### Bioinformatics Researcher
+**UT Health San Antonio · 2023–Present**
 
-  <div class="timeline-card">
-    <span class="timeline-dot"></span>
+- Lead the development of early diagnostic and prognostic models for neonatal and pediatric care to identify risk of disease onset and clinical outcomes.  
+- Integrated heterogeneous datasets including EMR, bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, methylation, microbiome, proteomics, and other omics or clinical data.  
+- Developed and applied statistical models ranging from simple linear regressions to mixed-effects frameworks on both static and longitudinal datasets, rigorously controlling for covariates and batch effects.  
+- Engineered reproducible, containerized workflows leveraging parallel processing to optimize data handling, multicohort meta-analyses, and regression and classification tasks, improving computational efficiency ~50% and enabling systematic model comparison.
+- Designed unsupervised machine learning workflows to identify patient subgroups across diverse datasets.  
+- Refined single-cell type annotations and integrated single-cell with spatial transcriptomics for high-resolution tissue maps.  
+- Implemented version-controlled workflows using Git to ensure reproducibility and collaboration.  
+- Supported clinical decision-making by translating complex molecular and clinical data into actionable insights for risk assessment and patient stratification.  
 
-    <h3>Bioinformatics Researcher</h3>
-    <p class="timeline-meta">
-      UT Health San Antonio · <em>2023–Present</em>
-    </p>
 
-    <ul>
-      <li>Built multi-platform GEO ETL pipelines</li>
-      <li>Handled probe-to-gene annotation edge cases</li>
-      <li>Normalized neonatal sepsis cohorts</li>
-      <li>R, Bioconductor, limma, GEOquery</li>
-    </ul>
-  </div>
+### Graduate Research Assistant
+**UT Health San Antonio · 2021–2023**
 
-  <div class="timeline-card">
-    <span class="timeline-dot"></span>
-
-    <h3>Graduate Research Assistant</h3>
-    <p class="timeline-meta">
-      UT Health San Antonio · <em>2021–2023</em>
-    </p>
-
-    <ul>
-      <li>Cancer transcriptomics and DE analysis</li>
-      <li>Publication-ready QC and figures</li>
-      <li>Reproducible R workflows</li>
-    </ul>
-  </div>
-
-</div>
-
+- Cancer transcriptomics and DE analysis
+- Publication-ready QC and figures
+- Reproducible R workflows
 
 ---
 
