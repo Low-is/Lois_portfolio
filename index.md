@@ -14,7 +14,7 @@ There should be whitespace between paragraphs. We recommend including a README, 
 ---
 ## About Me
 
-![Me](assets/images/picture.png)
+![Me](assets/images/Me.png)
 
 Thank you for visiting my portfolio page! My name is Lois Randolph and I was born and raised in San Antonio, Texas. I attended the University of Texas at San Antonio where I received my B.S. in Biology with a minor in Mathematics. I spent a gap year as a PREP (Postbaccalaureate Research Education Program) scholar at the University of Texas Health Science Center San Antonio, successfully finishing the year-long rigorous program that prepared me for graduate school. After completing my post-bac program, I was later accepted into the UT Health SA Graduate School of Biomedical Sciences where I earned my M.S. in Cancer Biology. During my time in graduate school, I served as the Advocacy Chair for UTHSCSA PRIDE and vice president for ALLIES, volunteering at clinical events that raise awareness to queer youth having access to healthcare, mental health resources, educational development programs, and hosting multiple student-led social events.
 
