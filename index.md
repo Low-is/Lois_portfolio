@@ -85,18 +85,27 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 ## Contact Me
 
 <div class="contact-buttons">
-  <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" rel="noopener">
-    <img src="{{ site.baseurl }}/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
-  </a>
+  <div class="button-row">
+    <a href="mailto:lois.randolph@outlook.com" class="btn-icon">
+      <img src="{{ site.baseurl }}/assets/icons/Outlook.png" alt="Email Icon"> Email
+    </a>
 
-  <a href="https://github.com/Low-is" target="_blank" rel="noopener">
-    <img src="{{ site.baseurl }}/assets/icons/GitHub.png" alt="GitHub" class="icon-button">
-  </a>
+    <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" class="btn-icon">
+      <img src="{{ site.baseurl }}/assets/icons/LinkedIn.png" alt="LinkedIn Icon"> LinkedIn
+    </a>
 
-  <a href="mailto:lois.randolph@outlook.com">
-    <img src="{{ site.baseurl }}/assets/icons/Outlook.png" alt="Email" class="icon-button">
-  </a>
+    <a href="https://github.com/Low-is" target="_blank" class="btn-icon">
+      <img src="{{ site.baseurl }}/assets/icons/GitHub.png" alt="GitHub Icon"> GitHub
+    </a>
+  </div>
+
+  <div class="button-row">
+    <a class="btn-icon" href="{{ site.baseurl }}/assets/resume/Lois_Randolph_Resume.pdf" download>
+      <img src="{{ site.baseurl }}/assets/icons/resume.png" alt="Resume Icon"> Download Resume
+    </a>
+  </div>
 </div>
+
 
 
 
