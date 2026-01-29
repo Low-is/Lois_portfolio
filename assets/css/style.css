@@ -5,20 +5,26 @@
 
 
 .contact-buttons {
-  display: flex;
-  gap: 20px;      /* space between icons */
-  justify-content: center; /* center on the page */
-  margin-top: 2rem;  /* space above the icons */
-  margin-bottom: 2rem; /* space below the icons */
+  display: flex;               /* horizontal layout */
+  justify-content: center;     /* center icons on the page */
+  align-items: center;         /* vertically align if icons differ in height */
+  gap: 20px;                   /* space between icons */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact-buttons a {
+  display: inline-block;       /* ensures flex works per icon */
 }
 
 .icon-button {
-  width: 40px;    /* icon size */
-  height: 40px;
+  width: 50px;                 /* medium size */
+  height: 50px;
+  object-fit: contain;          /* keeps aspect ratio */
   transition: transform 0.2s;
 }
 
 .icon-button:hover {
-  transform: scale(1.2); /* subtle hover effect */
+  transform: scale(1.2);       /* hover effect */
 }
 
