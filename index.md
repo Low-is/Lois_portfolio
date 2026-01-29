@@ -98,12 +98,6 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
       <img src="{{ site.baseurl }}/assets/icons/GitHub.png" alt="GitHub Icon"> GitHub
     </a>
   </div>
-
-  <div class="button-row">
-    <a class="btn-icon" href="{{ site.baseurl }}/assets/resume/Lois_Randolph_Resume.pdf" download>
-      <img src="{{ site.baseurl }}/assets/icons/resume.png" alt="Resume Icon"> Download Resume
-    </a>
-  </div>
 </div>
 
 
