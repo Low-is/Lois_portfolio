@@ -37,7 +37,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 ## Experience
 
 ### Bioinformatics Researcher
-**UT Health San Antonio · 2023–Present**
+**UT Health San Antonio · Dec. 2023–Present**
 
 - Lead the development of early diagnostic and prognostic models for neonatal and pediatric care to identify risk of disease onset and clinical outcomes.  
 - Integrated heterogeneous datasets including EMR, bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, methylation, microbiome, proteomics, and other omics or clinical data.  
@@ -46,15 +46,31 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 - Designed unsupervised machine learning workflows to identify patient subgroups across diverse datasets.  
 - Refined single-cell type annotations and integrated single-cell with spatial transcriptomics for high-resolution tissue maps.  
 - Implemented version-controlled workflows using Git to ensure reproducibility and collaboration.  
-- Supported clinical decision-making by translating complex molecular and clinical data into actionable insights for risk assessment and patient stratification.  
+- Supported clinical decision-making by translating complex molecular and clinical data into actionable insights for risk assessment and patient stratification.
+- Reviewed research grants for completeness, methodological rigor, and data integrity; conducted exploratory analyses to identify errors and gaps prior to submission.
 
 
 ### Graduate Research Assistant
-**UT Health San Antonio · 2021–2023**
+**UT Health San Antonio · Aug. 2021– Dec. 2023**
 
-- Cancer transcriptomics and DE analysis
-- Publication-ready QC and figures
-- Reproducible R workflows
+- Performed end-to-end processing of raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
+- Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
+- Conducted differential expression analysis on 12 triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
+
+
+### Intern
+**Baylor College of Medicine | Human Genome Sequencing Center - June 2021 - Aug. 2021**
+- Linked and oragnized data from over 10 entity types, including Allele Molecular Consequence, Variant, and Population Allele Frequency enhancing the curation process for ClinGen.
+- Maintained and updated the LDH, ensuring availability of 1+ million data points in a highly accessible format for researchers and curators.
+- Translated 1000+ lines of Ruby code into JavaScript, enabling smooth data parsing and interaction with APIs across mulitple domains.
+- Developed and optimized data pipelines to transform and aggregate gene and variant information, improving the efficiency of data retrieval and supporting 500+ ClinGen curations projects.
+
+
+### PREP Scholar
+**UT Health Science Center - June 2020 - June 2021**
+- Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and qauntify protein interactions.
+- Applied image processing tools in Python to enhance microscopy images, imporving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
+- Employed an automated colocalization analysis on microscopy images, applying Mander's colocalization coefficient to identify and quanity 100+ colocalized regions of the proteins CTD, SRSF2, and EWS across various experiemental conditions, revealing significant interaction between these proteins.
 
 ---
 
