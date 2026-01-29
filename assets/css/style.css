@@ -5,26 +5,41 @@
 
 
 .contact-buttons {
-  display: flex;               /* horizontal layout */
-  justify-content: center;     /* center icons on the page */
-  align-items: center;         /* vertically align if icons differ in height */
-  gap: 20px;                   /* space between icons */
+  display: flex;
+  flex-direction: column;      /* stack rows vertically */
+  gap: 1.5rem;                 /* space between rows */
+  align-items: center;          /* center rows */
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.contact-buttons a {
-  display: inline-block;       /* ensures flex works per icon */
+.button-row {
+  display: flex;               /* horizontal layout */
+  gap: 20px;                   /* space between buttons */
+  justify-content: center;     /* center buttons in the row */
+  flex-wrap: wrap;             /* wrap on small screens */
 }
 
-.icon-button {
-  width: 50px;                 /* medium size */
-  height: 50px;
-  object-fit: contain;          /* keeps aspect ratio */
-  transition: transform 0.2s;
+.btn-icon {
+  display: flex;               /* icon + label inline */
+  align-items: center;
+  gap: 8px;                    /* space between icon and text */
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: transform 0.2s, background-color 0.2s;
 }
 
-.icon-button:hover {
-  transform: scale(1.2);       /* hover effect */
+.btn-icon img {
+  width: 32px;                 /* medium icon size */
+  height: 32px;
+}
+
+.btn-icon:hover {
+  transform: translateY(-2px);
+  background-color: var(--accent-color);
 }
 
