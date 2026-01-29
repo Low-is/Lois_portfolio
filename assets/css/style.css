@@ -30,14 +30,26 @@
   height: 32px !important;
 }
 
-/* Ensure this is after @import 'jekyll-theme-architect'; */
-
-.resume-button {
-  font-size: 1.1rem !important;      /* bigger text */
-  padding: 0.8rem 1.5rem !important; /* bigger button */
-  min-width: 220px !important;       /* make sure text fits */
-  text-align: center !important;
-  white-space: nowrap !important;    /* prevent wrapping */
+/* Big Resume Button for Architect theme */
+.big-resume-button {
+  display: inline-block !important;
+  font-size: 1.4rem !important;         /* bigger, readable text */
+  font-weight: 700 !important;
+  padding: 1rem 2rem !important;        /* taller and wider button */
+  min-width: 250px !important;          /* ensures enough width for text */
+  background-color: #007acc !important; /* button color */
+  color: #fff !important;               /* text color */
+  border-radius: 8px !important;        /* rounded corners */
+  text-align: center !important;        /* center text */
+  white-space: nowrap !important;       /* prevent wrapping */
+  overflow: visible !important;         /* prevent text from being cut off */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15) !important; /* optional, makes it pop */
+  transition: background-color 0.3s ease !important;  /* hover smooth */
 }
+
+.big-resume-button:hover {
+  background-color: #005fa3 !important; /* hover effect */
+}
+
 
 
