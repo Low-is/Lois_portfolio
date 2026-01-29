@@ -4,24 +4,27 @@
 @import 'jekyll-theme-architect';
 
 
-#contact-me .buttons {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-top: 2rem;
+/* Custom Contact section - overrides Architect */
+.content-wrapper #contact-me .buttons {
+  display: flex !important;
+  justify-content: center !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+  margin-top: 2rem !important;
 }
 
-#contact-me .buttons a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  text-decoration: none;
+.content-wrapper #contact-me .buttons a {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+  text-decoration: none !important;
+  font-weight: 600;
 }
 
-#contact-me .buttons a img {
-  width: 32px;
-  height: 32px;
+.content-wrapper #contact-me .buttons a img {
+  width: 32px !important;
+  height: 32px !important;
 }
+
 
 
