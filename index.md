@@ -101,7 +101,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 ---
 
-## Contact Me 
+## Connect with me 
 
 <section id="contact-me" style="text-align:center; margin-top:2rem;">
   <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:1rem;">
