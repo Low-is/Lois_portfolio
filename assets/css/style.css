@@ -30,16 +30,24 @@
   height: 32px !important;
 }
 
-/* Make Architect theme buttons bigger while keeping the button shape */
-.button.big-button {
-  font-size: 1.4rem !important;       /* bigger text */
-  font-weight: 700 !important;        /* bold text */
-  padding: 1rem 2rem !important;      /* taller and wider */
-  min-width: 250px !important;        /* ensures long text fits */
-  border-radius: 8px !important;      /* rounded corners */
-  white-space: nowrap !important;     /* prevent wrapping */
-  text-align: center !important;      /* center text */
+/* Sidebar Resume Button Override for Architect Theme */
+#sidebar .button {
+  display: block !important;          /* make it block so width works */
+  width: 100% !important;             /* take full sidebar width */
+  max-width: 350px !important;        /* or whatever max width you want */
+  font-size: 1.4rem !important;       /* larger text */
+  font-weight: 700 !important;        /* bold */
+  padding: 1rem 2rem !important;      /* enough padding */
+  text-align: center !important;
+  border-radius: 8px !important;
+  background-color: #007acc !important;  /* visible button color */
+  color: #fff !important;                /* text color */
+  text-decoration: none !important;
 }
+#sidebar .button:hover {
+  background-color: #005fa3 !important;
+}
+
 
 
 
