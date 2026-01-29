@@ -55,20 +55,20 @@
   justify-content: center !important;
   gap: 1rem !important;
   margin: 1rem 0 2rem 0 !important;
-  border-bottom: 2px solid #ccc !important; /* bottom line under tabs */
+  border-bottom: 2px solid #ccc !important;
 }
 
 /* Each tab */
 .top-tabs .tab {
-  display: inline-block !important;          /* make it button-like */
-  padding: 0.6rem 1.5rem !important;         /* space around text */
-  text-decoration: none !important;          /* remove underline */
-  font-weight: 600 !important;               
-  color: #007acc !important;                 /* text color */
-  background-color: #f7f7f7 !important;      /* tab background */
-  border: 1px solid #ccc !important;         /* tab border */
-  border-bottom: none !important;            /* merge with content below */
-  border-radius: 6px 6px 0 0 !important;     /* rounded top corners */
+  display: inline-block !important;
+  padding: 0.6rem 1.5rem !important;
+  text-decoration: none !important;
+  font-weight: 600 !important;
+  color: #007acc !important;
+  background-color: #f7f7f7 !important;
+  border: 1px solid #ccc !important;
+  border-bottom: none !important;
+  border-radius: 6px 6px 0 0 !important;
   transition: background-color 0.2s, color 0.2s !important;
 }
 
@@ -83,5 +83,5 @@
   background-color: #007acc !important;
   color: white !important;
   border-color: #007acc !important;
-  border-bottom: none !important; /* active tab merges with content */
+  border-bottom: none !important;
 }
