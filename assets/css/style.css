@@ -30,12 +30,14 @@
   height: 32px !important;
 }
 
-/* Make the button wide enough for longer text */
-.button.wide-button {
-  display: inline-block;
-  padding: 0.6rem 1.5rem;  /* increase padding for more space */
-  min-width: 180px;         /* ensures the button is wide enough */
-  text-align: center;       /* keeps text centered */
-  white-space: nowrap;      /* prevents text from wrapping to a new line */
+/* Ensure this is after @import 'jekyll-theme-architect'; */
+
+.resume-button {
+  font-size: 1.1rem !important;      /* bigger text */
+  padding: 0.8rem 1.5rem !important; /* bigger button */
+  min-width: 220px !important;       /* make sure text fits */
+  text-align: center !important;
+  white-space: nowrap !important;    /* prevent wrapping */
 }
+
 
