@@ -3,9 +3,16 @@ layout: default
 ---
 
 <!-- Top tabs below the site title/description -->
-<div class="top-tabs">
-  <a href="#projects" class="tab active">Projects</a>
-  <a href="#content" class="tab">Pipeline</a>
+<div style="display:flex; justify-content:center; gap:1rem; margin-top:1rem;">
+  <a href="#projects"
+     style="display:inline-block; padding:1rem 2.5rem; font-size:1.4rem; font-weight:700; background-color:#007acc; color:#fff; border-radius:8px; text-decoration:none; text-align:center; min-width:250px;">
+    Projects
+  </a>
+
+  <a href="#pipeline"
+     style="display:inline-block; padding:1rem 2.5rem; font-size:1.4rem; font-weight:700; background-color:#007acc; color:#fff; border-radius:8px; text-decoration:none; text-align:center; min-width:250px;">
+    Meta-analysis Pipeline
+  </a>
 </div>
 
 # Hello and Welcome! 😊
