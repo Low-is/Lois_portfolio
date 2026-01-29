@@ -89,11 +89,11 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
     <img src="/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
   </a>
 
-  <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">
+  <a href="https://github.com/Low-is" target="_blank" rel="noopener">
     <img src="/assets/icons/GitHub.png" alt="GitHub" class="icon-button">
   </a>
 
-  <a href="mailto:YOUR_EMAIL@example.com">
+  <a href="mailto:lois.randolph@outlook.com">
     <img src="/assets/icons/Outlook.png" alt="Email" class="icon-button">
   </a>
 </div>
