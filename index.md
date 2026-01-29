@@ -9,7 +9,7 @@ This is my personal portfolio. Below you can explore my background, research, an
 
 ---
 
-## About Me
+## About Me 🔎
 
 <div style="text-align:center; margin-top:1rem; margin-bottom:1rem;">
   <img src="assets/images/Me.jpg" alt="Lois Randolph" style="width:300px; height:auto; border-radius:8px;">
@@ -23,7 +23,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 ---
 
-### Education
+### Education 🎓
 
 | Degree | Institution | Year |
 |:-------------|:------------------|:------|
@@ -71,7 +71,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 ---
 
-### Fun Facts
+### Fun Facts 💫
 
 * your friendly neighborhood bioinformatician 🖥️  
 * Avid Rollerblader 🛼  
@@ -81,7 +81,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 ---
 
-## Contact Me
+## Contact Me 
 
 <section id="contact-me" style="text-align:center; margin-top:2rem;">
   <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:1rem;">
