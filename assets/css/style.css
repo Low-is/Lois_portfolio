@@ -30,9 +30,17 @@
   height: 32px !important;
 }
 
-
-
 .button {
   padding: 0.5rem 1rem; /* adjust height/width */
   font-size: 1rem;      /* makes text bigger */
+}
+
+.download-resume {
+  display: inline-block;       /* ensures the button can expand */
+  padding: 0.75rem 1.5rem;    /* vertical + horizontal padding */
+  font-size: 1rem;            /* readable text */
+  white-space: nowrap;        /* prevents text wrapping */
+  max-width: 100%;            /* responsive on smaller screens */
+  box-sizing: border-box;     /* include padding in width */
+  text-align: center;
 }
