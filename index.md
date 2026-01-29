@@ -3,17 +3,23 @@ layout: default
 ---
 
 <!-- Top tabs below the site title/description -->
-<div style="display:flex; justify-content:center; gap:1rem; margin-top:1rem;">
+<!-- Tab Bar -->
+<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom: 0.5rem;">
+  
+  <!-- Projects Tab -->
   <a href="#projects"
-     style="display:inline-block; padding:1rem 2.5rem; font-size:1.4rem; font-weight:700; background-color:#007acc; color:#fff; border-radius:8px; text-decoration:none; text-align:center; min-width:250px;">
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
     Projects
   </a>
 
+  <!-- Meta-analysis Pipeline Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:1rem 2.5rem; font-size:1.4rem; font-weight:700; background-color:#007acc; color:#fff; border-radius:8px; text-decoration:none; text-align:center; min-width:250px;">
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
     Meta-analysis Pipeline
   </a>
+
 </div>
+
 
 # Hello and Welcome! 😊
 
