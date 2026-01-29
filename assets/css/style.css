@@ -4,27 +4,32 @@
 @import 'jekyll-theme-architect';
 
 
-/* Custom Contact section - overrides Architect */
-.content-wrapper #contact-me .buttons {
+/* Architect-compatible horizontal buttons */
+.contact-section {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-buttons {
   display: flex !important;
   justify-content: center !important;
-  flex-wrap: wrap !important;
   gap: 20px !important;
-  margin-top: 2rem !important;
+  flex-wrap: wrap !important;
 }
 
-.content-wrapper #contact-me .buttons a {
+.contact-btn {
   display: flex !important;
   align-items: center !important;
-  gap: 8px !important;
+  gap: 5px !important;
   text-decoration: none !important;
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
-.content-wrapper #contact-me .buttons a img {
+.contact-btn img {
   width: 32px !important;
   height: 32px !important;
 }
+
 
 
 
