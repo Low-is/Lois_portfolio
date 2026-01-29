@@ -59,7 +59,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 
 ### Intern
-**Baylor College of Medicine | Human Genome Sequencing Center - June 2021 - Aug. 2021**
+**Baylor College of Medicine | Human Genome Sequencing Center · June 2021 - Aug. 2021**
 - Linked and oragnized data from over 10 entity types, including Allele Molecular Consequence, Variant, and Population Allele Frequency enhancing the curation process for ClinGen.
 - Maintained and updated the LDH, ensuring availability of 1+ million data points in a highly accessible format for researchers and curators.
 - Translated 1000+ lines of Ruby code into JavaScript, enabling smooth data parsing and interaction with APIs across mulitple domains.
@@ -67,7 +67,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 
 ### PREP Scholar
-**UT Health Science Center - June 2020 - June 2021**
+**UT Health Science Center · June 2020 - June 2021**
 - Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and qauntify protein interactions.
 - Applied image processing tools in Python to enhance microscopy images, imporving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
 - Employed an automated colocalization analysis on microscopy images, applying Mander's colocalization coefficient to identify and quanity 100+ colocalized regions of the proteins CTD, SRSF2, and EWS across various experiemental conditions, revealing significant interaction between these proteins.
