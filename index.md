@@ -86,17 +86,18 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 <div class="contact-buttons">  
   <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" rel="noopener">
-    <img src="/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
+    <img src="{{ site.baseurl }}/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
   </a>
 
   <a href="https://github.com/Low-is" target="_blank" rel="noopener">
-    <img src="/assets/icons/GitHub.png" alt="GitHub" class="icon-button">
+    <img src="{{ site.baseurl }}/assets/icons/GitHub.png" alt="GitHub" class="icon-button">
   </a>
 
   <a href="mailto:lois.randolph@outlook.com">
-    <img src="/assets/icons/Outlook.png" alt="Email" class="icon-button">
+    <img src="{{ site.baseurl }}/assets/icons/Outlook.png" alt="Email" class="icon-button">
   </a>
 </div>
+
 
 ---
 
