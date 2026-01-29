@@ -5,7 +5,7 @@ layout: default
 <!-- Top tabs below the site title/description -->
 <div class="top-tabs">
   <a href="#projects" class="tab active">Projects</a>
-  <a href="#content" class="tab">Content</a>
+  <a href="#content" class="tab">Pipeline</a>
 </div>
 
 # Hello and Welcome! 😊
