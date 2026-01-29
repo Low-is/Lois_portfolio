@@ -30,27 +30,12 @@
   height: 32px !important;
 }
 
-.button {
-  padding: 0.5rem 1rem; /* adjust height/width */
-  font-size: 1rem;      /* makes text bigger */
+/* Make the button wide enough for longer text */
+.button.wide-button {
+  display: inline-block;
+  padding: 0.6rem 1.5rem;  /* increase padding for more space */
+  min-width: 180px;         /* ensures the button is wide enough */
+  text-align: center;       /* keeps text centered */
+  white-space: nowrap;      /* prevents text from wrapping to a new line */
 }
 
-.download-resume {
-  display: inline-block;       /* ensures the button can expand */
-  padding: 0.75rem 1.5rem;    /* vertical + horizontal padding */
-  font-size: 1rem;            /* readable text */
-  white-space: nowrap;        /* prevents text wrapping */
-  max-width: 100%;            /* responsive on smaller screens */
-  box-sizing: border-box;     /* include padding in width */
-  text-align: center;
-}
-
-.button.download-resume {
-  display: inline-block !important;   /* force override */
-  width: auto !important;             /* remove fixed width from theme */
-  max-width: 100% !important;         /* responsive */
-  padding: 0.75rem 1.5rem !important; /* give enough space inside */
-  font-size: 1rem !important;         /* readable text */
-  white-space: nowrap !important;     /* prevent breaking text */
-  text-align: center !important;      /* center the text */
-}
