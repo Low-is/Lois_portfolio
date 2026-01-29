@@ -37,7 +37,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 ## Experience
 
 ### Bioinformatics Researcher
-**UT Health San Antonio · Dec. 2023–Present**
+**UT Health Science Center · Dec. 2023–Present**
 
 - Lead the development of early diagnostic and prognostic models for neonatal and pediatric care to identify risk of disease onset and clinical outcomes.  
 - Integrated heterogeneous datasets including EMR, bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, methylation, microbiome, proteomics, and other omics or clinical data.  
@@ -51,7 +51,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 
 ### Graduate Research Assistant
-**UT Health San Antonio · Aug. 2021– Dec. 2023**
+**UT Health Science Center · Aug. 2021– Dec. 2023**
 
 - Performed end-to-end processing of raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
 - Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
