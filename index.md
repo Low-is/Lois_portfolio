@@ -82,9 +82,9 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 ---
 
 
-# Contact Me
+## Contact Me
 
-<div class="contact-buttons">  
+<div class="contact-buttons">
   <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" rel="noopener">
     <img src="{{ site.baseurl }}/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
   </a>
@@ -97,6 +97,7 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
     <img src="{{ site.baseurl }}/assets/icons/Outlook.png" alt="Email" class="icon-button">
   </a>
 </div>
+
 
 
 ---
