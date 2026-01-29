@@ -7,15 +7,13 @@ layout: default
 This is my personal portfolio. Below you can explore my background, research, and experience.
 [Link to another page](./another-page.html).
 
-
 ---
+
 ## About Me
 
 ![Lois Randolph](assets/images/Me.jpg)
 
-
 Thank you for visiting my portfolio page! My name is Lois Randolph and I was born and raised in San Antonio, Texas. I attended the University of Texas at San Antonio where I received my B.S. in Biology with a minor in Mathematics. I spent a gap year as a PREP (Postbaccalaureate Research Education Program) scholar at the University of Texas Health Science Center San Antonio, successfully finishing the year-long rigorous program that prepared me for graduate school. After completing my post-bac program, I was later accepted into the UT Health SA Graduate School of Biomedical Sciences where I earned my M.S. in Cancer Biology. During my time in graduate school, I served as the Advocacy Chair for UTHSCSA PRIDE and vice president for ALLIES, volunteering at clinical events that raise awareness to queer youth having access to healthcare, mental health resources, educational development programs, and hosting multiple student-led social events.
-
 
 I'm a biologist by training but a programmer at heart, with a deep passion for precision medicine, computational biology, data science, machine learning, AI, and data engineering. I'm primarily self-taught in R, Python, SQL, HTML, CSS and Linux. I enjoy the challenges presented to me that involve, building prediction models to identify biomarkers to improve medical treatments, manage tools & databases used by teams, institutions, and companies for data storage, data processing, and quality control, and developing pipelines that can automate tasks improving work efficiency. Though this is a different career path I was not expecting, I believe that "where there is passion and inspiration, you can't go wrong".
 
@@ -29,7 +27,6 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 | B.S. in Biology, Minor in Mathematics | University of Texas at San Antonio | 2020 |
 
 ---
-
 
 ## Experience
 
@@ -46,7 +43,6 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 - Supported clinical decision-making by translating complex molecular and clinical data into actionable insights for risk assessment and patient stratification.
 - Reviewed research grants for completeness, methodological rigor, and data integrity; conducted exploratory analyses to identify errors and gaps prior to submission.
 
-
 ### Graduate Research Assistant
 **UT Health Science Center · Aug. 2021– Dec. 2023**
 
@@ -54,77 +50,47 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 - Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
 - Conducted differential expression analysis on 12 triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
 
-
 ### Intern
 **Baylor College of Medicine | Human Genome Sequencing Center · June 2021 - Aug. 2021**
-- Linked and oragnized data from over 10 entity types, including Allele Molecular Consequence, Variant, and Population Allele Frequency enhancing the curation process for ClinGen.
-- Maintained and updated the LDH, ensuring availability of 1+ million data points in a highly accessible format for researchers and curators.
-- Translated 1000+ lines of Ruby code into JavaScript, enabling smooth data parsing and interaction with APIs across mulitple domains.
-- Developed and optimized data pipelines to transform and aggregate gene and variant information, improving the efficiency of data retrieval and supporting 500+ ClinGen curations projects.
 
+- Linked and organized data from over 10 entity types, including Allele Molecular Consequence, Variant, and Population Allele Frequency enhancing the curation process for ClinGen.
+- Maintained and updated the LDH, ensuring availability of 1+ million data points in a highly accessible format for researchers and curators.
+- Translated 1000+ lines of Ruby code into JavaScript, enabling smooth data parsing and interaction with APIs across multiple domains.
+- Developed and optimized data pipelines to transform and aggregate gene and variant information, improving the efficiency of data retrieval and supporting 500+ ClinGen curation projects.
 
 ### PREP Scholar
 **UT Health Science Center · June 2020 - June 2021**
-- Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and qauntify protein interactions.
-- Applied image processing tools in Python to enhance microscopy images, imporving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
-- Employed an automated colocalization analysis on microscopy images, applying Mander's colocalization coefficient to identify and quanity 100+ colocalized regions of the proteins CTD, SRSF2, and EWS across various experiemental conditions, revealing significant interaction between these proteins.
+
+- Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and quantify protein interactions.
+- Applied image processing tools in Python to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
+- Employed an automated colocalization analysis on microscopy images, applying Mander's colocalization coefficient to identify and quantify 100+ colocalized regions of the proteins CTD, SRSF2, and EWS across various experimental conditions, revealing significant interaction between these proteins.
 
 ---
 
 ### Fun Facts
 
-* your friendly neighborhood bioinformatician 🖥️
-* Avid Rollerblader 🛼
-* Rubix's Cube Enthusiast 🤓
-* Unapologetically an anime fanatic 🥷
-* Probably dancing while you're reading this 💃🏾
+* your friendly neighborhood bioinformatician 🖥️  
+* Avid Rollerblader 🛼  
+* Rubik's Cube Enthusiast 🤓  
+* Unapologetically an anime fanatic 🥷  
+* Probably dancing while you're reading this 💃🏾  
 
 ---
-
 
 ## Contact Me
 
-<div class="contact-buttons">
-  <div class="button-row">
-    <a href="mailto:lois.randolph@outlook.com" class="btn-icon">
-      <img src="{{ site.baseurl }}/assets/icons/Outlook.png" alt="Email Icon"> Email
+<section id="contact-me" style="text-align:center; margin-top:2rem;">
+  <div style="display:flex; justify-content:center; gap:20px; flex-wrap:wrap; margin-top:1rem;">
+    <a href="mailto:lois.randolph@outlook.com" style="display:flex; align-items:center; gap:5px; text-decoration:none;">
+      <img src="{{ '/assets/icons/Outlook.png' | relative_url }}" alt="Email" style="width:32px; height:32px;"> Email
     </a>
-
-    <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" class="btn-icon">
-      <img src="{{ site.baseurl }}/assets/icons/LinkedIn.png" alt="LinkedIn Icon"> LinkedIn
+    <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" style="display:flex; align-items:center; gap:5px; text-decoration:none;">
+      <img src="{{ '/assets/icons/LinkedIn.png' | relative_url }}" alt="LinkedIn" style="width:32px; height:32px;"> LinkedIn
     </a>
-
-    <a href="https://github.com/Low-is" target="_blank" class="btn-icon">
-      <img src="{{ site.baseurl }}/assets/icons/GitHub.png" alt="GitHub Icon"> GitHub
+    <a href="https://github.com/Low-is" target="_blank" style="display:flex; align-items:center; gap:5px; text-decoration:none;">
+      <img src="{{ '/assets/icons/GitHub.png' | relative_url }}" alt="GitHub" style="width:32px; height:32px;"> GitHub
     </a>
   </div>
-</div>
-
-
-
+</section>
 
 ---
-
-
-Example using blockqoute:
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
----
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
