@@ -84,9 +84,9 @@ I'm a biologist by training but a programmer at heart, with a deep passion for p
 
 # Contact Me
 
-<div class="contact-buttons">
-  <a href="https://www.linkedin.com/in/YOUR_PROFILE" target="_blank" rel="noopener">
-    <img src="/assets/icons/Linkedin.png" alt="LinkedIn" class="icon-button">
+<div class="contact-buttons">  
+  <a href="https://www.linkedin.com/in/lois-randolph" target="_blank" rel="noopener">
+    <img src="/assets/icons/LinkedIn.png" alt="LinkedIn" class="icon-button">
   </a>
 
   <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">
