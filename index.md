@@ -62,19 +62,19 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 - Lead the development of early diagnostic and prognostic models for neonatal and pediatric care to identify risk of disease onset and clinical outcomes.  
 - Integrated heterogeneous datasets including EMR, bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, methylation, microbiome, proteomics, and other omics or clinical data.  
 - Developed and applied statistical models ranging from simple linear regressions to mixed-effects frameworks on both static and longitudinal datasets, rigorously controlling for covariates and batch effects.  
-- Engineered reproducible, containerized workflows leveraging parallel processing to optimize data handling, multicohort meta-analyses, and regression and classification tasks, improving computational efficiency ~50% and enabling systematic model comparison.
-- Designed unsupervised machine learning workflows to identify patient subgroups across diverse datasets.  
-- Refined single-cell type annotations and integrated single-cell with spatial transcriptomics for high-resolution tissue maps.  
-- Implemented version-controlled workflows using Git to ensure reproducibility and collaboration.  
+- Reproducible, containerized workflows that leverage parallel processing optimizing data handling, harmonization, multicohort meta-analyses, and regression and classification tasks.
+- Unsupervised machine learning (exploratory analyses) and supervised machine learning.  
+- Refined single-cell type annotations and integrated single-cell with spatial transcriptomics mapping predicted cell types to lung spatial landscape.  
+- Version control using Git.  
 - Supported clinical decision-making by translating complex molecular and clinical data into actionable insights for risk assessment and patient stratification.
-- Reviewed research grants for completeness, methodological rigor, and data integrity; conducted exploratory analyses to identify errors and gaps prior to submission.
+- Review research grants for methodological rigor and data integrity; conducted exploratory analyses to identify errors and gaps prior to submission.
 
 ### Graduate Research Assistant
 **UT Health Science Center · Aug. 2021– Dec. 2023**
 
 - Performed end-to-end processing of raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
 - Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
-- Conducted differential expression analysis on 12 triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
+- Conducted differential expression analysis on triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
 
 ### Intern
 **Baylor College of Medicine | Human Genome Sequencing Center · June 2021 - Aug. 2021**
