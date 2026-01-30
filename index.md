@@ -4,52 +4,59 @@ layout: default
 
 <!-- Top tabs below the site title/description -->
 <!-- Tab Bar -->
-<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom: 0.5rem;">
-  
-  <!-- Projects Tab -->
+<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom: 0.5rem; flex-wrap:wrap;">
+
   <a href="#projects"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     Projects (under construction 🚧)
   </a>
 
-  <!-- Docker Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     How to Guide to Using Docker (under construction 🚧)
   </a>
 
-  <!-- Methods on Handling Heterogenous Data Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     How to Handle Heterogeneous Data (under construction 🚧)
   </a>
 
-  <!-- Raw Data Processing Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     Raw Data Processing (under construction 🚧)
   </a>
 
-
-   <!-- Clinical Informatics Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     Clinical Informatics (under construction 🚧)
   </a>
 
-  <!-- Introduction to TensorFlow/PyTorch Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     Introduction to TensorFlow/PyTorch (under construction 🚧)
   </a>
 
-  <!-- Meta-analysis Pipeline Tab -->
   <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
+            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
+            border-radius:4px 4px 0 0; white-space:nowrap;">
     Usable Pipelines/Workflows (under construction 🚧)
   </a>
 
 </div>
+
 
 
 
