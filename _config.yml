@@ -5,6 +5,7 @@ google_analytics:
 theme: jekyll-theme-architect
 markdown: kramdown
 show_downloads: true
+baseurl: "/Lois_portfolio"
 
 
 kramdown:
