@@ -56,7 +56,7 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 ## Experience
 
 ### Bioinformatics Researcher
-**UT Health Science Center · Dec. 2023–Present**
+**UT Health Science Center | Pediatrics · Dec. 2023–Present**
 
 - Lead the development of early diagnostic and prognostic models for neonatal and pediatric care to identify risk of disease onset and clinical outcomes.  
 - Integrated heterogeneous datasets including EMR, bulk RNA-seq, single-cell RNA-seq, spatial transcriptomics, methylation, microbiome, proteomics, and other omics or clinical data.  
@@ -69,7 +69,7 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 - Review research grants for methodological rigor and data integrity; conducted exploratory analyses to identify errors and gaps prior to submission.
 
 ### Graduate Research Assistant
-**UT Health Science Center · Aug. 2021– Dec. 2023**
+**UT Health Science Center | Integrated Biomedical Sciences · Aug. 2021– Dec. 2023**
 
 - Processed raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
 - Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
@@ -84,7 +84,7 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 - Developed and optimized data pipelines to transform and aggregate gene and variant information, improving the efficiency of data retrieval and supporting 500+ ClinGen curation projects.
 
 ### PREP Scholar
-**UT Health Science Center · June 2020 - June 2021**
+**UT Health Science Center | Biochemical Mechanisms in Medicine · June 2020 - June 2021**
 
 - Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and quantify protein interactions.
 - Applied image processing tools in Python to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
