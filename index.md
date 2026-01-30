@@ -12,6 +12,37 @@ layout: default
     Projects (under construction 🚧)
   </a>
 
+  <!-- Docker Tab -->
+  <a href="#pipeline"
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+    How to Guide to Using Docker (under construction 🚧)
+  </a>
+
+  <!-- Methods on Handling Heterogenous Data Tab -->
+  <a href="#pipeline"
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+    How to Handle Heterogeneous Data (under construction 🚧)
+  </a>
+
+  <!-- Raw Data Processing Tab -->
+  <a href="#pipeline"
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+    Raw Data Processing (under construction 🚧)
+  </a>
+
+
+   <!-- Clinical Informatics Tab -->
+  <a href="#pipeline"
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+    Clinical Informatics (under construction 🚧)
+  </a>
+
+  <!-- Introduction to TensorFlow/PyTorch Tab -->
+  <a href="#pipeline"
+     style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
+    Introduction to TensorFlow/PyTorch (under construction 🚧)
+  </a>
+
   <!-- Meta-analysis Pipeline Tab -->
   <a href="#pipeline"
      style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
