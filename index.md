@@ -4,58 +4,24 @@ layout: default
 
 <!-- Top tabs below the site title/description -->
 <!-- Tab Bar -->
-<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom: 0.5rem; flex-wrap:wrap;">
+<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom:0.5rem; overflow-x:auto;">
 
-  <a href="#projects"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    Projects (under construction 🚧)
-  </a>
+  <a href="#projects" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Projects (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    How to Guide to Using Docker (under construction 🚧)
-  </a>
+  <a href="#workflows" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Workflows (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    How to Handle Heterogeneous Data (under construction 🚧)
-  </a>
+  <a href="#rawdata" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Raw Data (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    Raw Data Processing (under construction 🚧)
-  </a>
+  <a href="#heterogeneous" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Heterogeneous Data (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    Clinical Informatics (under construction 🚧)
-  </a>
+  <a href="#docker" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Docker (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    Introduction to TensorFlow/PyTorch (under construction 🚧)
-  </a>
+  <a href="#tensorflow" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">TensorFlow/PyTorch (Under Construction 🚧)</a>
 
-  <a href="#pipeline"
-     style="display:inline-block; padding:0.5rem 0.75rem; font-size:0.95rem; font-weight:600;
-            color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none;
-            border-radius:4px 4px 0 0; white-space:nowrap;">
-    Usable Pipelines/Workflows (under construction 🚧)
-  </a>
+  <a href="#clinical" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Clinical Informatics (Under Construction 🚧)</a>
 
 </div>
+
 
 
 
