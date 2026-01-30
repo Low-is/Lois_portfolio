@@ -9,13 +9,13 @@ layout: default
   <!-- Projects Tab -->
   <a href="#projects"
      style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
-    Projects
+    Projects (under construction 🚧)
   </a>
 
   <!-- Meta-analysis Pipeline Tab -->
   <a href="#pipeline"
      style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
-    Meta-analysis Pipeline
+    Meta-analysis Pipeline (under construction 🚧)
   </a>
 
 </div>
