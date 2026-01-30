@@ -87,7 +87,7 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 **UT Health Science Center | Biochemical Mechanisms in Medicine · June 2020 - June 2021**
 
 - Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing multi color channels to pinpoint and quantify protein interactions.
-- image processing with Python tools to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
+- Image processing with Python tools to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
 
 
 ---
