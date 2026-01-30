@@ -4,22 +4,132 @@ layout: default
 
 <!-- Top tabs below the site title/description -->
 <!-- Tab Bar -->
-<div style="display:flex; justify-content:center; gap:0.5rem; margin-top:1rem; border-bottom: 2px solid #007acc; padding-bottom:0.5rem; overflow-x:auto;">
+<div style="
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding: 0.5rem;
+  border-bottom: 2px solid #007acc;
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+">
 
-  <a href="#projects" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Projects (Under Construction 🚧)</a>
+  <!-- Left spacer so first tab is not cut off -->
+  <div style="flex: 0 0 0.5rem;"></div>
 
-  <a href="#workflows" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Workflows (Under Construction 🚧)</a>
+  <a href="#projects" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Projects (Under Construction 🚧)</a>
 
-  <a href="#rawdata" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Raw Data (Under Construction 🚧)</a>
+  <a href="#workflows" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Workflows (Under Construction 🚧)</a>
 
-  <a href="#heterogeneous" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Heterogeneous Data (Under Construction 🚧)</a>
+  <a href="#rawdata" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Raw Data (Under Construction 🚧)</a>
 
-  <a href="#docker" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Docker (Under Construction 🚧)</a>
+  <a href="#heterogeneous" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Heterogeneous Data (Under Construction 🚧)</a>
 
-  <a href="#tensorflow" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">TensorFlow/PyTorch (Under Construction 🚧)</a>
+  <a href="#docker" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Docker (Under Construction 🚧)</a>
 
-  <a href="#clinical" style="padding:0.5rem 0.75rem; font-weight:600; color:#007acc; text-decoration:none; border:1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0; white-space:nowrap;">Clinical Informatics (Under Construction 🚧)</a>
+  <a href="#tensorflow" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">TensorFlow/PyTorch (Under Construction 🚧)</a>
 
+  <a href="#clinical" style="
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #007acc;
+    text-decoration: none;
+    border: 1px solid #007acc;
+    border-bottom: none;
+    border-radius: 4px 4px 0 0;
+    white-space: nowrap;
+    text-align: center;
+  ">Clinical Informatics (Under Construction 🚧)</a>
+
+  <!-- Right spacer so last tab is not cut off -->
+  <div style="flex: 0 0 0.5rem;"></div>
 </div>
 
 
