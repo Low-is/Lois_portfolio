@@ -46,7 +46,7 @@ layout: default
   <!-- Meta-analysis Pipeline Tab -->
   <a href="#pipeline"
      style="display:inline-block; padding:0.5rem 1rem; font-size:1rem; font-weight:600; color:#007acc; text-decoration:none; border: 1px solid #007acc; border-bottom:none; border-radius:4px 4px 0 0;">
-    Meta-analysis Pipeline (under construction 🚧)
+    Usable Pipelines/Workflows (under construction 🚧)
   </a>
 
 </div>
