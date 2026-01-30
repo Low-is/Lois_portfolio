@@ -72,7 +72,7 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 ### Graduate Research Assistant
 **UT Health Science Center · Aug. 2021– Dec. 2023**
 
-- Performed end-to-end processing of raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
+- Processed raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
 - Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
 - Conducted differential expression analysis on triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
 
