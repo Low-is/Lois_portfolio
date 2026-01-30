@@ -86,15 +86,15 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 ### PREP Scholar
 **UT Health Science Center | Biochemical Mechanisms in Medicine · June 2020 - June 2021**
 
-- Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing two color channels to pinpoint and quantify protein interactions.
-- Applied image processing tools in Python to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
-- Employed an automated colocalization analysis on microscopy images, applying Mander's colocalization coefficient to identify and quantify 100+ colocalized regions of the proteins CTD, SRSF2, and EWS across various experimental conditions, revealing significant interaction between these proteins.
+- Designed custom code from ImageJ-processed microscopy images to identify regions of interest capturing colocalized proteins for 100+ images, analyzing multi color channels to pinpoint and quantify protein interactions.
+- image processing with Python tools to enhance microscopy images, improving quality and contrast, identifying samples, annotating labels, and tailoring visuals for professional reporting.
+
 
 ---
 
 ### Fun Facts 💫
 
-* your friendly neighborhood bioinformatician 🖥️  
+* Your friendly neighborhood bioinformatician 🖥️  
 * Avid Rollerblader 🛼  
 * Rubik's Cube Enthusiast 🤓  
 * Unapologetically an anime fanatic 🥷  
