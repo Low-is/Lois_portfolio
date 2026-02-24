@@ -185,9 +185,17 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 ### Graduate Research Assistant
 **UT Health Science Center | Integrated Biomedical Sciences · Aug. 2021– Dec. 2023**
 
-- Processed raw bulk RNA-seq FASTQ data, including quality assessment, adapter and low-quality base trimming, alignment to mouse (mm9) and human reference genomes, and generation of gene-level expresssion count matrices for downstream analysis.
-- Processed raw single-cell RNA-seq data from FASTQ files to gene-by-cell expression matrices, including demultiplexing, barcode and UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix generation. 
-- Conducted differential expression analysis on triple-negative breast cancer (TNBC) xenograft and syngeneic mice models, uncovering suppression of oncogenic signaling pathways in high-fat diet (HFD) groups treated with the small-molecule compound EC359.
+- Processed raw bulk RNA-seq FASTQ files; quality assessment, trimming, alignment to mouse (mm9) and human 
+reference genomes, and generation of gene-level expression count matrices.
+- Processed raw single-cell RNA-seq FASTQ files to gene-by-cell expression matrices; demultiplexing, barcode and 
+UMI processing, quality control, read alignment to reference genomes or transcriptomes, and feature count matrix 
+generation.
+- Computational analysis of EC359 treatment response across TNBC, inflammatory breast cancer (IBC), and Type II 
+endometrial cancer (ECa) models (e.g., in vitro, xenograft, and PD-xenograft models).
+- Performed transcriptomic profiling and differential expression modeling to characterize the effects of LIFR 
+inhibition in biological pathways.
+- Analyzed and quantified drug efficacy (t-test, one- and two-way ANOVA), treatment-response stratification, and 
+immunohistochemistry images. 
 
 ### Intern
 **Baylor College of Medicine | Human Genome Sequencing Center · June 2021 - Aug. 2021**
