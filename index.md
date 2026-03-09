@@ -72,11 +72,16 @@ layout: default
 
 
 
+<div align="center">
 
+# 👋 Hello and Welcome! 😊
 
-# Hello and Welcome! 😊
+### Personal Portfolio
 
-This is my personal portfolio. Below you can explore my background, research, and experience.
+This is my personal portfolio. Below you can explore my background, research and self-guided projects, and experience. 
+
+</div>
+
 
 ---
 
