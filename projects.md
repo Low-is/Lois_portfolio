@@ -3,7 +3,7 @@ layout: default
 title: Projects
 ---
 
-# Projects 🚀
+# Projects 📒
 
 <ul>
   <li>
@@ -11,5 +11,7 @@ title: Projects
       Automated IT Support Ticket Intelligence System
     </a>
   </li>
-  <!-- Add more projects here -->
+  <li>3D CT Scans Image Classification</li>
+  <li>Multi-Cohort Meta-Analysis Pipeline</li>
+  <li>ETL with HiveQL</li>
 </ul>
