@@ -14,5 +14,4 @@ title: Helpful Guides
   <li>Advanced Statistical Models</li>
   <li>How to use Docker and Containerize workflows</li>
   <li>Deep Learning with PyTorch and TensorFlow</li>
-  <li>ETL with HiveQL</li>
 </ul>
