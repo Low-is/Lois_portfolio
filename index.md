@@ -30,28 +30,7 @@ layout: default
     border-radius: 4px 4px 0 0;
     white-space: nowrap;
     text-align: center;
-  ">Projects</a>
-
-  <a id="projects"></a>
-## Projects 🚀
-
----
-
-### Automated IT Support Ticket Intelligence System
-
-**Description:**  
-Process IT support tickets using NLP, visualize priorities, and detect patterns in high-priority requests.
-
-**Technologies Used:**  
-![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
-![Pandas](https://img.shields.io/badge/Pandas-1.5-lightgrey?logo=pandas&logoColor=black) 
-![NumPy](https://img.shields.io/badge/NumPy-1.25-orange?logo=NumPy&logoColor=white) 
-![Matplotlib](https://img.shields.io/badge/Matplotlib-3.8-purple?logo=matplotlib&logoColor=white) 
-![Seaborn](https://img.shields.io/badge/Seaborn-0.12-blueviolet?logo=seaborn&logoColor=white)  
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white)
-
-**Notebook (interactive view):**  
-[View notebook on NBViewer](https://nbviewer.org/github/Low-is/Automated-IT-Support-Ticket-Intelligence-System/blob/main/src/01_data_integration.ipynb)
+  ">Projects (Under Construction 🚧)</a>
 
   <a href="#workflows" style="
     flex: 0 0 auto;
