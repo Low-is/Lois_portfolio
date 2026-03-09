@@ -105,6 +105,38 @@ Although I am a biologist by training, I am a programmer at heart, with a strong
 
 ---
 
+## Skills
+### Programming Languages
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white) 
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
+### Machine Learning
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Random Forest](https://img.shields.io/badge/Random%20Forest-228B22?style=for-the-badge)
+![Gradient Boosting](https://img.shields.io/badge/Gradient%20Boosting-8A2BE2?style=for-the-badge)
+![SVM](https://img.shields.io/badge/SVM-FF6F00?style=for-the-badge)
+![kNN](https://img.shields.io/badge/kNN-1E90FF?style=for-the-badge)
+
+### Deep Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+
+### Data Engineering & Databases
+![Hadoop](https://img.shields.io/badge/Hadoop-66CCFF?style=for-the-badge&logo=apachehadoop&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![RSQLite](https://img.shields.io/badge/RSQLite-276DC3?style=for-the-badge)
+
+### Worflow & Reproducibility
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Nextflow](https://img.shields.io/badge/Nextflow-23AA62?style=for-the-badge)
+
+
 ## Experience
 
 ### Bioinformatics Researcher
