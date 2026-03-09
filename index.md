@@ -31,8 +31,9 @@ layout: default
     white-space: nowrap;
     text-align: center;
   ">Projects (Under Construction 🚧</a>
+  
 
-  <a href="#workflows" style="
+  <a href="{{ '/guides.html' | relative_url }}" style="
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
@@ -46,71 +47,8 @@ layout: default
     border-radius: 4px 4px 0 0;
     white-space: nowrap;
     text-align: center;
-  ">Workflows (Under Construction 🚧)</a>
-
-  <a href="#rawdata" style="
-    flex: 0 0 auto;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #007acc;
-    text-decoration: none;
-    border: 1px solid #007acc;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    white-space: nowrap;
-    text-align: center;
-  ">Raw Data (Under Construction 🚧)</a>
-
-  <a href="#heterogeneous" style="
-    flex: 0 0 auto;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #007acc;
-    text-decoration: none;
-    border: 1px solid #007acc;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    white-space: nowrap;
-    text-align: center;
-  ">Heterogeneous Data (Under Construction 🚧)</a>
-
-  <a href="#docker" style="
-    flex: 0 0 auto;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #007acc;
-    text-decoration: none;
-    border: 1px solid #007acc;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    white-space: nowrap;
-    text-align: center;
-  ">Docker (Under Construction 🚧)</a>
-
-  <a href="#tensorflow" style="
-    flex: 0 0 auto;
-    display: inline-flex;
-    align-items: center;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: #007acc;
-    text-decoration: none;
-    border: 1px solid #007acc;
-    border-bottom: none;
-    border-radius: 4px 4px 0 0;
-    white-space: nowrap;
-    text-align: center;
-  ">TensorFlow/PyTorch (Under Construction 🚧)</a>
+  ">Helpful Guides 🤓 (Under Construction 🚧)</a>
+  
 
   <a href="#clinical" style="
     flex: 0 0 auto;
