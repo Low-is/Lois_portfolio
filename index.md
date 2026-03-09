@@ -16,7 +16,7 @@ layout: default
   <!-- Left spacer so first tab is not cut off -->
   <div style="flex: 0 0 0.5rem;"></div>
 
-  <a href="#projects" style="
+  <a href="{{ '/projects.html' | relative_url }}" style="
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
