@@ -11,7 +11,7 @@ title: Projects
       Automated IT Support Ticket Intelligence System
     </a>
   </li>
-  <li>3D CT Scans Image Classification</li>
   <li>Multi-Cohort Meta-Analysis Pipeline</li>
+  <li>3D CT Scans Image Classification</li>
   <li>ETL with HiveQL</li>
 </ul>
