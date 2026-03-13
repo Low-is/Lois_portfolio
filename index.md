@@ -30,7 +30,7 @@ layout: default
     border-radius: 4px 4px 0 0;
     white-space: nowrap;
     text-align: center;
-  ">Projects (Under Construction 🚧</a>
+  ">Projects </a>
   
 
   <a href="{{ '/guides.html' | relative_url }}" style="
